@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 export const Home = (): JSX.Element => (
   <div className="bg-black">
@@ -13,7 +12,7 @@ export const Home = (): JSX.Element => (
     <header className="text-white body-font bg-fv bg-no-repeat bg-cover bg-center w-screen" style={{height: "90vh"}}>
       <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <Image src="/images/logo_white.svg" alt="Vercel Logo" height={'64'} width={'300'} />
+          <img src="/images/logo_white.svg" alt="Vercel Logo" height={'64'} width={'300'} />
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-xl justify-center font-en">
           <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
@@ -41,7 +40,7 @@ export const Home = (): JSX.Element => (
             社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。
             </p>
             <a className="mix-blend-overlay">
-              <Image src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
+              <img src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
             </a>
           </div>
         </div>
@@ -134,7 +133,7 @@ export const Home = (): JSX.Element => (
           
           <div className="flex items-top lg:w-4/5 mx-auto border-b pb-10 border-gray-200 sm:flex-row flex-col">
             <div className="inline-flex items-center justify-center">
-              <Image src="/images/ex1.png" alt="example_1" width={'352'} height={'300'} />
+              <img src="/images/ex1.png" alt="example_1" width={'352'} height={'300'} />
             </div>
             <div className="flex-grow text-left ml-20 mt-6 pt-40 w-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 01</p>
@@ -216,13 +215,13 @@ export const Home = (): JSX.Element => (
               </div>
             </div>
             <div className="inline-flex items-center justify-center">
-              <Image src="/images/ex2.png" alt="example_2" width={'352'} height={'300'} />
+              <img src="/images/ex2.png" alt="example_2" width={'352'} height={'300'} />
             </div>
           </div>
 
           <div className="flex items-top lg:w-4/5 mx-auto border-b pb-10 mb-20 border-gray-200 sm:flex-row flex-col">
             <div className="inline-flex items-center justify-center">
-              <Image src="/images/ex3.png" alt="example_3" width={'352'} height={'300'} />
+              <img src="/images/ex3.png" alt="example_3" width={'352'} height={'300'} />
             </div>
             <div className="flex-grow text-left ml-20 mt-6 pt-40 w-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 03</p>
@@ -442,7 +441,7 @@ export const Home = (): JSX.Element => (
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <Image src="/images/logo_white.svg" alt="Vercel Logo" height={'64'} width={'200'} />
+            <img src="/images/logo_white.svg" alt="Vercel Logo" height={'64'} width={'200'} />
           </a>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center text-white">
