@@ -39,9 +39,7 @@ export const Home = (): JSX.Element => (
             私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、<br/>
             社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。
             </p>
-            <a className="mix-blend-overlay">
-              <img src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
-            </a>
+            <img className="mix-blend-overlay" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
           </div>
         </div>
     </section>
