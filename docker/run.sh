@@ -7,6 +7,7 @@ docker run \
   -dit \
   -v $PWD:/workspace \
   -p $APP_HOST_PORT:$APP_CONTAINER_PORT \
+  -p $SERVER_HOST_PORT:$SERVER_CONTAINER_PORT \
   --name $CONTAINER_NAME\
   --rm \
   $IMAGE_NAME sh -c "cd $APP_NAME; yarn install; yarn dev"

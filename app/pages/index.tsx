@@ -12,7 +12,7 @@ export const Home = (): JSX.Element => (
     <header className="text-white body-font bg-fv bg-no-repeat bg-cover bg-center w-screen" style={{height: "90vh"}}>
       <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <img src="/images/logo_white.svg" alt="Vercel Logo" height={'64'} width={'300'} />
+          <img src="/images/logo_white.svg" alt="Logo" height={'64'} width={'300'} />
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-xl justify-center font-en">
           <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
@@ -282,7 +282,7 @@ export const Home = (): JSX.Element => (
         <div className="flex flex-wrap -m-4 font-jp font-medium">
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img alt="testimonial" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/rmatsuba.jpg"/>
+              <img alt="Ryoto Matsuba" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/rmatsuba.jpg"/>
               <p className="text-gray-100">CEO</p>
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">松葉 亮人</h2>
               <p className="text-gray-100">Ryoto Matsuba</p>
@@ -297,7 +297,7 @@ export const Home = (): JSX.Element => (
 
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img alt="testimonial" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/tinoue.jpg"/>
+              <img alt="Tomohiro Inoue" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/tinoue.jpg"/>
               <p className="text-gray-100">取締役</p>
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">井上 智裕</h2>
               <p className="text-gray-100">Tomohiro Inoue</p>
@@ -311,7 +311,7 @@ export const Home = (): JSX.Element => (
 
           <div className="lg:w-1/3 lg:mb-0 p-4">
             <div className="h-full text-center">
-              <img alt="testimonial" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/kmurata.jpg"/>
+              <img alt="Ken Murata" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/kmurata.jpg"/>
               <p className="text-gray-100">取締役</p>
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">村田 健</h2>
               <p className="text-gray-100">Ken Murata</p>
@@ -441,7 +441,7 @@ export const Home = (): JSX.Element => (
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="/images/logo_white.svg" alt="Vercel Logo" height={'64'} width={'200'} />
+            <img src="/images/logo_white.svg" alt="Logo" height={'64'} width={'200'} />
           </a>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center text-white">
