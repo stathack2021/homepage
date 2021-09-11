@@ -408,23 +408,23 @@ export const Home = (): JSX.Element => (
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label htmlFor="name" className="leading-7 text-sm">お名前[必須]</label>
+                <label htmlFor="name" className="leading-7 text-sm">お名前 [必須]</label>
                 <input type="text" id="name" name="お名前" data-formrun-required className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-                <div data-formrun-show-if-error="お名前">お名前を入力してください</div>
+                {/* <div data-formrun-show-if-error="お名前">お名前を入力してください</div> */}
               </div>
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label htmlFor="email" className="leading-7 text-sm">連絡先メールアドレス[必須]</label>
+                <label htmlFor="email" className="leading-7 text-sm">連絡先メールアドレス [必須]</label>
                 <input type="email" id="email" name="メールアドレス" data-formrun-type="email" data-formrun-required className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-                <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                {/* <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div> */}
               </div>
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label htmlFor="message" className="leading-7 text-sm">お問い合わせ内容[必須]</label>
+                <label htmlFor="message" className="leading-7 text-sm">お問い合わせ内容 [必須]</label>
                 <textarea id="message" name="お問い合わせ内容" data-formrun-required className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-64 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                <div data-formrun-show-if-error="お問い合わせ内容">お問い合わせ内容を入力してください</div>
+                {/* <div data-formrun-show-if-error="お問い合わせ内容">お問い合わせ内容を入力してください</div> */}
               </div>
             </div>
             <div className="p-2 w-full mt-10">
