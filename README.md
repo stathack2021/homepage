@@ -1,10 +1,10 @@
-# homepage
+# stathack2021.github.io
 StatHack の会社ホームページ
 
 ## Usage
 ### Setup
 ```
-$ cd homepage
+$ cd stathack2021.github.io
 $ sh docker/build.sh
 ```
 
