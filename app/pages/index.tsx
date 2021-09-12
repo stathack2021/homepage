@@ -33,7 +33,7 @@ export const Home = (): JSX.Element => (
           </h1>
           <div className="md:w-3/5 md:pl-16 font-jp font-medium">
             <h2 className="text-4xl py-5">“データを原動力に社会を次の時代へ”</h2>
-            <p className="leading-relaxed text-base text-lg mt-5 w-4/5 xl:w-4/5 2xl:w-2/3">
+            <p className="leading-relaxed text-base text-lg mt-5 w-4/5 xl:w-5/6 2xl:w-2/3">
             StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、
             ビジネスの質や効率をさらに高めるテクニックを提供します。<br/>
             私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、
