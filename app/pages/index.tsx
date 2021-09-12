@@ -109,8 +109,8 @@ export const Home = (): JSX.Element => (
     <section className="text-white body-font" id="service">
       <div className="py-4 bg-sh-gray shadow-lg rounded-lg my-20 mx-auto mx-20">
         <div className="text-center mb-20">
+          <p className="text-lg font-jp font-bold py-2 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">事業概要</p>
           <h1 className="text-6xl font-en font-semibold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">
-            <span className="text-lg font-jp font-bold">事業概要</span><br/>
             SERVICE
           </h1>
           <div className="flex mt-6 justify-center">
