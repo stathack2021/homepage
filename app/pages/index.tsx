@@ -9,9 +9,9 @@ export const Home = (): JSX.Element => (
       <script src="https://sdk.form.run/js/v2/formrun.js"></script>
     </Head>
 
-    <header className="text-white body-font bg-fv bg-no-repeat bg-cover bg-center w-screen" style={{height: "90vh"}}>
-      <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <header className="text-white body-font bg-fv bg-no-repeat bg-cover bg-center" style={{height: "90vh"}}>
+      <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center px-16">
+        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-96">
           <img src="/images/logo_white.svg" alt="Logo" height={'64'} width={'300'} />
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-xl justify-center font-en">
@@ -27,16 +27,16 @@ export const Home = (): JSX.Element => (
 
     <section className="text-white body-font bg-about" id="about">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
-          <h1 className="text-7xl text-white font-en font-semibold title-font mb-2 md:w-2/5">
+          <h1 className="text-7xl text-white font-en font-semibold title-font mb-2 pl-16 md:w-2/5">
             <span className="text-lg font-jp font-bold">私たちについて</span><br/>
             ABOUT US
           </h1>
-          <div className="md:w-3/5 md:pl-6 font-jp font-medium">
+          <div className="md:w-3/5 md:pl-16 font-jp font-medium">
             <h2 className="text-4xl py-5">“データを原動力に社会を次の時代へ”</h2>
-            <p className="leading-relaxed text-base text-2xl mt-5">
+            <p className="leading-relaxed text-base text-lg mt-5 w-4/5 xl:w-4/5 2xl:w-2/3">
             StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、
             ビジネスの質や効率をさらに高めるテクニックを提供します。<br/>
-            私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、<br/>
+            私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、
             社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。
             </p>
             <img className="mix-blend-overlay" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
@@ -59,13 +59,13 @@ export const Home = (): JSX.Element => (
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className="flex-grow px-16">
+            <div className="flex-grow px-10">
               <div className="text-whitetitle-font font-medium mb-3 flex flex-wrap items-center border-b border-sh-blue">
                 <div className="w-1/4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue via-sh-blue to-sh-dark-blue">
                   <span className="text-base font-en font-semibold">value</span><br/>
                   <span className="text-6xl font-en font-semibold">01</span>
                 </div>
-                <div className="w-3/4 text-2xl font-jp font-medium">ビジネス課題に<br />真摯に向き合う</div>
+                <div className="w-3/4 text-2xl font-jp font-medium text-left pl-5">ビジネス課題に<br />真摯に向き合う</div>
               </div>
               <p className="leading-relaxed font-jp font-medium text-base text-left">
                 私たちは、お客様それぞれの持つビジネス課題やデータに対し、個々の特性を加味した最適なソリューションを真摯に求め続けます。
@@ -74,13 +74,13 @@ export const Home = (): JSX.Element => (
           </div>
 
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className="flex-grow px-16">
+            <div className="flex-grow px-10">
               <div className="text-whitetitle-font font-medium mb-3 flex flex-wrap items-center border-b border-sh-blue">
                 <div className="w-1/4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue via-sh-blue to-sh-dark-blue">
                   <span className="text-base font-en font-semibold">value</span><br/>
                   <span className="text-6xl font-en font-semibold">02</span>
                 </div>
-                <div className="w-3/4 text-2xl font-jp font-medium">最先端技術を<br/>社会に実装する</div>
+                <div className="w-3/4 text-2xl font-jp font-medium text-left pl-5">最先端技術を<br/>社会に実装する</div>
               </div>
               <p className="leading-relaxed font-jp font-medium text-base text-left">
               私たちは、機械学習分野の最前線で研究開発を続けます。その中で培われた最先端の技術を結集してお客様により質の高いサービスを提供します。
@@ -89,13 +89,13 @@ export const Home = (): JSX.Element => (
           </div>
 
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className="flex-grow px-16">
+            <div className="flex-grow px-10">
               <div className="text-whitetitle-font font-medium mb-3 flex flex-wrap items-center border-b border-sh-blue">
                 <div className="w-1/4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue via-sh-blue to-sh-dark-blue">
                   <span className="text-base font-en font-semibold">value</span><br/>
                   <span className="text-6xl font-en font-semibold">03</span>
                 </div>
-                <div className="w-3/4 text-2xl font-jp font-medium">常に学びを得て<br/>向上し続ける</div>
+                <div className="w-3/4 text-2xl font-jp font-medium text-left pl-5">常に学びを得て<br/>向上し続ける</div>
               </div>
               <p className="leading-relaxed font-jp font-medium text-base text-left">
                 私たちは、急速に変化し続ける時代の中で常に向上し続けます。貪欲に学びを求め、お客様のさらなる成果へとつなげる機会を逃しません。
@@ -119,8 +119,8 @@ export const Home = (): JSX.Element => (
         </div>
 
           <div className="font-jp font-medium text-sh-black text-center">
-            <h2 className="text-4xl py-5">AI ソリューション事業</h2>
-            <p className="leading-relaxed text-base text-2xl mt-5">
+            <h2 className="text-4xl py-5 font-bold">AI ソリューション事業</h2>
+            <p className="leading-relaxed text-base text-lg mt-5">
               StatHack では、データの有効活用によるお客様の成果の更なる向上をもたらす AI ソリューションを提供します。<br/>
               AI 技術導入の検討段階でのご相談から開発、導入、運用支援まで、お客様をサポートさせていただきます。
             </p>
@@ -266,7 +266,7 @@ export const Home = (): JSX.Element => (
     </section>
 
     <section className="text-white body-font bg-member bg-no-repeat bg-cover" id="member">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-24 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="text-6xl font-en font-semibold title-font text-white mb-4">
             <span className="text-lg font-jp font-bold">役員紹介</span><br/>
@@ -278,14 +278,14 @@ export const Home = (): JSX.Element => (
         </div>
 
         <div className="flex flex-wrap -m-4 font-jp font-medium">
-          <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div className="lg:w-1/3 lg:mb-0 mb-6">
             <div className="h-full text-center">
               <img alt="Ryoto Matsuba" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/rmatsuba.jpg"/>
               <p className="text-gray-100">CEO</p>
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">松葉 亮人</h2>
               <p className="text-gray-100">Ryoto Matsuba</p>
               <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
-              <p className="leading-relaxed px-24 text-left">
+              <p className="leading-relaxed px-16 text-left">
                 早稲田大学先進理工学部 所属。<br/>
                 松尾研究所の共同研究プロジェクトに参加し、
                 前職のAIスタートアップでは製品開発を主導した。
@@ -293,28 +293,28 @@ export const Home = (): JSX.Element => (
             </div>
           </div>
 
-          <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div className="lg:w-1/3 lg:mb-0 mb-6">
             <div className="h-full text-center">
               <img alt="Tomohiro Inoue" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/tinoue.jpg"/>
               <p className="text-gray-100">取締役</p>
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">井上 智裕</h2>
               <p className="text-gray-100">Tomohiro Inoue</p>
               <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
-              <p className="leading-relaxed px-24 text-left">
+              <p className="leading-relaxed px-16 text-left">
                 早稲田大学先進理工学部 所属。<br/>
                 ハッカソンでの最優秀賞受賞、大学講義への教材アプリの提供など開発経験多数。
               </p>
             </div>
           </div>
 
-          <div className="lg:w-1/3 lg:mb-0 p-4">
+          <div className="lg:w-1/3 lg:mb-0">
             <div className="h-full text-center">
               <img alt="Ken Murata" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/kmurata.jpg"/>
               <p className="text-gray-100">取締役</p>
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">村田 健</h2>
               <p className="text-gray-100">Ken Murata</p>
               <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
-              <p className="leading-relaxed px-24 text-left">
+              <p className="leading-relaxed px-16 text-left">
                 東京大学工学系研究科技術経営戦略専攻 所属。
                 松尾研究所の共同研究プロジェクトに参加。
                 AIスタートアップでWebアプリや画像処理の実務経験多数。
@@ -436,53 +436,27 @@ export const Home = (): JSX.Element => (
     </section>
 
     <footer className="text-gray-600 body-font font-en">
-      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="/images/logo_white.svg" alt="Logo" height={'64'} width={'200'} />
+      <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+        <div className="w-64 flex-shrink-0 mx-auto text-center ">
+          <a className="flex title-font font-medium items-center justify-center text-gray-900">
+            <img src="/images/logo_white.svg" alt="Logo" height={'64'} width={'240'} />
           </a>
         </div>
-        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center text-white">
+        <div className="flex-grow flex flex-wrap mx-auto -mb-10 mt-10 text-center text-white">
           <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
           <a className="mr-5 hover:text-blue-400" href="/#value">VALUE</a>
           <a className="mr-5 hover:text-blue-400" href="/#service">SERVICE</a>
           <a className="mr-5 hover:text-blue-400" href="/#member">MEMBER</a>
           <a className="mr-5 hover:text-blue-400" href="/#company">COMPANY</a>
           <a className="mr-5 hover:text-blue-400" href="/#contact">CONTACT</a>
-          <a className="mr-5 hover:text-blue-400" href="https://docs.google.com/document/d/1aLZxMF1pQr3nnX0IiREiA21fhIzKYtEQ/edit?usp=sharing&ouid=103723920923670350704&rtpof=true&sd=true">PRIVACY POLICY</a>
         </div>
-      </div>
-      <div className="bg-gray-100">
-        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">© 2021 StatHack, inc.</p>
-          {/* SNS
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a className="text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
-                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-          </span> 
-          */}
+        <div className="flex-grow flex flex-wrap mx-auto mt-32 text-center text-white">
+          <a className="hover:text-blue-400 font-jp w-full" href="https://docs.google.com/document/d/1aLZxMF1pQr3nnX0IiREiA21fhIzKYtEQ/edit?usp=sharing&ouid=103723920923670350704&rtpof=true&sd=true">プライバシーポリシー</a>
+          <p className="text-sm text-center w-full mx-auto pt-2">© 2021 StatHack, inc.</p>
         </div>
+        
       </div>
+      
     </footer>
   </div>
 )
