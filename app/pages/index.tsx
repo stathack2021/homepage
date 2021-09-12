@@ -107,7 +107,7 @@ export const Home = (): JSX.Element => (
     </section>
 
     <section className="text-white body-font" id="service">
-      <div className="py-4 bg-sh-gray shadow-lg rounded-lg my-20 mx-auto mx-20">
+      <div className="py-28 bg-sh-gray shadow-lg rounded-lg my-20 mx-20">
         <div className="text-center mb-20">
           <p className="text-lg font-jp font-bold py-2 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">事業概要</p>
           <h1 className="text-6xl font-en font-semibold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">
@@ -127,13 +127,13 @@ export const Home = (): JSX.Element => (
           </div>
         
         
-        <div className="container px-5 mx-auto text-sh-black">
+        <div className="container mx-auto text-sh-black py-20 space-y-32">
           
-          <div className="flex items-top lg:w-4/5 mx-auto border-b pb-10 border-gray-200 sm:flex-row flex-col">
-            <div className="inline-flex items-center justify-center">
+          <div className="flex items-top lg:w-5/6 mx-auto border-b border-gray-200 sm:flex-row flex-col">
+            <div>
               <img src="/images/ex1.png" alt="example_1" width={'352'} height={'300'} />
             </div>
-            <div className="flex-grow text-left ml-20 mt-6 pt-40 w-20">
+            <div className="flex-grow text-left ml-20 mt-6 w-20 pt-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 01</p>
               <h2 className="text-4xl py-2">コンピュータビジョン</h2>
               <p className="leading-relaxed text-base font-jp font-medium">
@@ -142,7 +142,7 @@ export const Home = (): JSX.Element => (
               </p>
 
               <div className="flex flex-wrap -mx-4 -mb-10 my-5 md:space-y-0 space-y-6">
-                <div className="p-4 md:w-1/2 flex">
+                <div className="p-4 2xl:w-1/2 flex">
                   <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search w-6 h-6" viewBox="0 0 16 16">
                       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -155,7 +155,7 @@ export const Home = (): JSX.Element => (
                     </p>
                   </div>
                 </div>
-                <div className="p-4 md:w-1/2 flex">
+                <div className="p-4 2xl:w-1/2 flex">
                   <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-film w-6 h-6" viewBox="0 0 16 16">
                       <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
@@ -172,8 +172,8 @@ export const Home = (): JSX.Element => (
             </div>
           </div>
 
-          <div className="flex items-top lg:w-4/5 mx-auto border-b pb-10 border-gray-200 sm:flex-row flex-col">
-            <div className="flex-grow text-left mr-20 mt-6 pt-40 w-20">
+          <div className="flex items-top lg:w-5/6 mx-auto border-b border-gray-200 sm:flex-row flex-col">
+            <div className="flex-grow text-left mr-20 mt-6 pt-20 w-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 02</p>
               <h2 className="text-4xl py-2">自然言語処理</h2>
               <p className="leading-relaxed text-base font-jp font-medium">
@@ -182,7 +182,7 @@ export const Home = (): JSX.Element => (
               </p>
 
               <div className="flex flex-wrap -mx-4 -mb-10 my-5 md:space-y-0 space-y-6">
-                <div className="p-4 md:w-1/2 flex">
+                <div className="p-4 2xl:w-1/2 flex">
                   <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-file-earmark-text w-6 h-6" viewBox="0 0 16 16">
                       <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
@@ -196,7 +196,7 @@ export const Home = (): JSX.Element => (
                     </p>
                   </div>
                 </div>
-                <div className="p-4 md:w-1/2 flex">
+                <div className="p-4 2xl:w-1/2 flex">
                   <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chat-text w-6 h-6" viewBox="0 0 16 16">
                       <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
@@ -212,16 +212,16 @@ export const Home = (): JSX.Element => (
                 </div>
               </div>
             </div>
-            <div className="inline-flex items-center justify-center">
+            <div>
               <img src="/images/ex2.png" alt="example_2" width={'352'} height={'300'} />
             </div>
           </div>
 
-          <div className="flex items-top lg:w-4/5 mx-auto border-b pb-10 mb-20 border-gray-200 sm:flex-row flex-col">
-            <div className="inline-flex items-center justify-center">
+          <div className="flex items-top lg:w-5/6 mx-auto border-b border-gray-200 sm:flex-row flex-col">
+            <div>
               <img src="/images/ex3.png" alt="example_3" width={'352'} height={'300'} />
             </div>
-            <div className="flex-grow text-left ml-20 mt-6 pt-40 w-20">
+            <div className="flex-grow text-left ml-20 mt-6 pt-20 w-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 03</p>
               <h2 className="text-4xl py-2">その他データ分析</h2>
               <p className="leading-relaxed text-base font-jp font-medium">
@@ -230,7 +230,7 @@ export const Home = (): JSX.Element => (
               </p>
 
               <div className="flex flex-wrap -mx-4 -mb-10 my-5 md:space-y-0 space-y-6">
-                <div className="p-4 md:w-1/2 flex">
+                <div className="p-4 2xl:w-1/2 flex">
                   <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bar-chart-line w-6 h-6" viewBox="0 0 16 16">
                       <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
@@ -243,7 +243,7 @@ export const Home = (): JSX.Element => (
                     </p>
                   </div>
                 </div>
-                <div className="p-4 md:w-1/2 flex">
+                <div className="p-4 2xl:w-1/2 flex">
                   <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-wifi w-6 h-6" viewBox="0 0 16 16">
                       <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
@@ -259,6 +259,10 @@ export const Home = (): JSX.Element => (
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="p-2 w-full mt-10 ">
+            <button onClick={()=>{window.location.href='/#contact'}} className="flex mx-auto w-96 h-16 items-center justify-center font-bold text-white bg-gradient-to-l from-sh-light-blue  via-sh-blue to-sh-dark-blue hover:bg-gradient-to-l hover:from-sh-light-blue-hover  hover:via-sh-blue-hover hover:to-sh-dark-blue-hover  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">CONTACT</button>
           </div>
 
         </div>
@@ -428,7 +432,7 @@ export const Home = (): JSX.Element => (
               </div>
             </div>
             <div className="p-2 w-full mt-10">
-              <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." className="flex mx-auto w-96 h-16 items-center justify-center font-bold text-white bg-gradient-to-l from-sh-light-blue  via-sh-blue to-sh-dark-blue hover:bg-gradient-to-l hover:from-sh-light-blue-hover  hover:via-sh-blue-hover hover:to-sh-dark-blue-hover  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">送信</button>
+              <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." className="flex mx-auto w-96 h-16 items-center justify-center font-bold text-white bg-gradient-to-l from-sh-light-blue  via-sh-blue to-sh-dark-blue hover:bg-gradient-to-l hover:from-sh-light-blue-hover  hover:via-sh-blue-hover hover:to-sh-dark-blue-hover  border-0 py-2 px-8 focus:outline-none rounded text-lg">送信</button>
             </div>
           </div>
         </form>
