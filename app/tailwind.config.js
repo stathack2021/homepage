@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'fv': "url('/images/FV.png')",
+        'sp-fv': "url('/images/sp-fv.png')",
         'about': "url('/images/about.png')",
         'value': "url('/images/value.png')",
         'member': "url('/images/member.png')",
@@ -24,6 +25,10 @@ module.exports = {
         'sh-gray4': '#E5E5E5',
         'sh-black': '#111111',
         'sh-white': '#F0F0F0',
+      },
+      height: {
+        '90vh': '90vh',
+        '50vh': '50vh',
       }
     },
     fontFamily: {
