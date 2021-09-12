@@ -10,11 +10,11 @@ export const Home = (): JSX.Element => (
     </Head>
 
     <header className="text-white body-font bg-fv bg-no-repeat bg-cover bg-center" style={{height: "90vh"}}>
-      <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center px-16">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-96">
+      <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center px-8 xl:px-16">
+        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 xl:w-96">
           <img src="/images/logo_white.svg" alt="Logo" height={'64'} width={'300'} />
         </a>
-        <nav className="md:ml-auto flex flex-wrap items-center text-xl justify-center font-en">
+        <nav className="md:ml-auto flex flex-wrap items-center text-lg xl:text-xl justify-center font-en">
           <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
           <a className="mr-5 hover:text-blue-400" href="/#value">VALUE</a>
           <a className="mr-5 hover:text-blue-400" href="/#service">SERVICE</a>
@@ -32,8 +32,8 @@ export const Home = (): JSX.Element => (
             ABOUT US
           </h1>
           <div className="md:w-3/5 md:pl-16 font-jp font-medium">
-            <h2 className="text-4xl py-5">“データを原動力に社会を次の時代へ”</h2>
-            <p className="leading-relaxed text-base text-lg mt-5 w-4/5 xl:w-5/6 2xl:w-2/3">
+            <h2 className="text-3xl xl:text-4xl py-5">“データを原動力に社会を次の時代へ”</h2>
+            <p className="leading-relaxed text-base mt-5 w-full xl:w-5/6 2xl:w-2/3">
             StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、
             ビジネスの質や効率をさらに高めるテクニックを提供します。<br/>
             私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、
@@ -59,13 +59,13 @@ export const Home = (): JSX.Element => (
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className="flex-grow px-10">
+            <div className="flex-grow px-5 xl:px-10">
               <div className="text-whitetitle-font font-medium mb-3 flex flex-wrap items-center border-b border-sh-blue">
                 <div className="w-1/4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue via-sh-blue to-sh-dark-blue">
                   <span className="text-base font-en font-semibold">value</span><br/>
                   <span className="text-6xl font-en font-semibold">01</span>
                 </div>
-                <div className="w-3/4 text-2xl font-jp font-medium text-left pl-5">ビジネス課題に<br />真摯に向き合う</div>
+                <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">ビジネス課題に<br />真摯に向き合う</div>
               </div>
               <p className="leading-relaxed font-jp font-medium text-base text-left">
                 私たちは、お客様それぞれの持つビジネス課題やデータに対し、個々の特性を加味した最適なソリューションを真摯に求め続けます。
@@ -74,13 +74,13 @@ export const Home = (): JSX.Element => (
           </div>
 
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className="flex-grow px-10">
+            <div className="flex-grow px-5 xl:px-10">
               <div className="text-whitetitle-font font-medium mb-3 flex flex-wrap items-center border-b border-sh-blue">
                 <div className="w-1/4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue via-sh-blue to-sh-dark-blue">
                   <span className="text-base font-en font-semibold">value</span><br/>
                   <span className="text-6xl font-en font-semibold">02</span>
                 </div>
-                <div className="w-3/4 text-2xl font-jp font-medium text-left pl-5">最先端技術を<br/>社会に実装する</div>
+                <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">最先端技術を<br/>社会に実装する</div>
               </div>
               <p className="leading-relaxed font-jp font-medium text-base text-left">
               私たちは、機械学習分野の最前線で研究開発を続けます。その中で培われた最先端の技術を結集してお客様により質の高いサービスを提供します。
@@ -89,13 +89,13 @@ export const Home = (): JSX.Element => (
           </div>
 
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className="flex-grow px-10">
+            <div className="flex-grow px-5 xl:px-10">
               <div className="text-whitetitle-font font-medium mb-3 flex flex-wrap items-center border-b border-sh-blue">
                 <div className="w-1/4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue via-sh-blue to-sh-dark-blue">
                   <span className="text-base font-en font-semibold">value</span><br/>
                   <span className="text-6xl font-en font-semibold">03</span>
                 </div>
-                <div className="w-3/4 text-2xl font-jp font-medium text-left pl-5">常に学びを得て<br/>向上し続ける</div>
+                <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">常に学びを得て<br/>向上し続ける</div>
               </div>
               <p className="leading-relaxed font-jp font-medium text-base text-left">
                 私たちは、急速に変化し続ける時代の中で常に向上し続けます。貪欲に学びを求め、お客様のさらなる成果へとつなげる機会を逃しません。
@@ -107,7 +107,7 @@ export const Home = (): JSX.Element => (
     </section>
 
     <section className="text-white body-font" id="service">
-      <div className="py-28 bg-sh-gray shadow-lg rounded-lg my-20 mx-20">
+      <div className="py-28 bg-sh-gray shadow-lg rounded-lg my-20 mx-8 xl:mx-20">
         <div className="text-center mb-20">
           <p className="text-lg font-jp font-bold py-2 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">事業概要</p>
           <h1 className="text-6xl font-en font-semibold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">
@@ -136,8 +136,10 @@ export const Home = (): JSX.Element => (
             <div className="flex-grow text-left ml-20 mt-6 w-20 pt-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 01</p>
               <h2 className="text-4xl py-2">コンピュータビジョン</h2>
+              <p className="leading-relaxed text-base font-jp font-medium mb-5">
+                CV、画像分析
+              </p>
               <p className="leading-relaxed text-base font-jp font-medium">
-                CV、画像分析<br />
                 コンピュータビジョンは、コンピュータにより人間に近い認知方法で画像や動画を処理することを目指す分野です。深層学習の技術の発展と共に最も大きく成長してきた分野であり、現在では様々なタスクにおいて人間を超える精度を記録するほどに成熟しています。
               </p>
 
@@ -176,8 +178,10 @@ export const Home = (): JSX.Element => (
             <div className="flex-grow text-left mr-20 mt-6 pt-20 w-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 02</p>
               <h2 className="text-4xl py-2">自然言語処理</h2>
+              <p className="leading-relaxed text-base font-jp font-medium mb-5">
+                NLP、テキスト分析
+              </p>
               <p className="leading-relaxed text-base font-jp font-medium">
-                NLP、テキスト分析<br />
                 自然言語処理は、コンピュータにより人間が日常使う言語（自然言語）から情報を抽出し処理することを目指す分野です。人間の高度な情報処理に密接にかかわるため難しい分野であるとされてきましたが、近年では新たなモデルの登場などにより目覚ましい発展を遂げています。
               </p>
 
@@ -224,8 +228,10 @@ export const Home = (): JSX.Element => (
             <div className="flex-grow text-left ml-20 mt-6 pt-20 w-20">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 03</p>
               <h2 className="text-4xl py-2">その他データ分析</h2>
+              <p className="leading-relaxed text-base font-jp font-medium mb-5">
+                数値で表されるデータ全般の分析
+              </p>
               <p className="leading-relaxed text-base font-jp font-medium">
-                数値で表されるデータ全般<br />
                 上記の画像・テキストデータに限らず、数値で表すことのできるデータであれば機械学習の対象となります。弊社ではお客様の持っていらっしゃるデータを有効に活用できる方法を提案いたしますので、お気軽にご相談ください。
               </p>
 
@@ -289,7 +295,7 @@ export const Home = (): JSX.Element => (
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">松葉 亮人</h2>
               <p className="text-gray-100">Ryoto Matsuba</p>
               <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
-              <p className="leading-relaxed px-16 text-left">
+              <p className="leading-relaxed px-4 xl:px-16 text-left">
                 早稲田大学先進理工学部 所属。<br/>
                 松尾研究所の共同研究プロジェクトに参加し、
                 前職のAIスタートアップでは製品開発を主導した。
@@ -304,7 +310,7 @@ export const Home = (): JSX.Element => (
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">井上 智裕</h2>
               <p className="text-gray-100">Tomohiro Inoue</p>
               <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
-              <p className="leading-relaxed px-16 text-left">
+              <p className="leading-relaxed px-4 xl:px-16 text-left">
                 早稲田大学先進理工学部 所属。<br/>
                 ハッカソンでの最優秀賞受賞、大学講義への教材アプリの提供など開発経験多数。
               </p>
@@ -318,7 +324,7 @@ export const Home = (): JSX.Element => (
               <h2 className="text-white font-medium title-font tracking-wider text-4xl">村田 健</h2>
               <p className="text-gray-100">Ken Murata</p>
               <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
-              <p className="leading-relaxed px-16 text-left">
+              <p className="leading-relaxed px-4 xl:px-16 text-left">
                 東京大学工学系研究科技術経営戦略専攻 所属。
                 松尾研究所の共同研究プロジェクトに参加。
                 AIスタートアップでWebアプリや画像処理の実務経験多数。
@@ -344,7 +350,7 @@ export const Home = (): JSX.Element => (
         <div className="mx-auto p-4 font-jp font-medium text-sh-black">
           <div className="h-full bg-sh-gray2 p-8 rounded">
             <div className="flex flex-wrap divide-x divide-sh-gray3">
-              <div className="w-1/2 px-20 py-6">
+              <div className="w-1/2 px-8 xl:px-20 py-6">
                 <table className="w-full h-full">
                   <tbody>
                     <tr>
@@ -363,7 +369,7 @@ export const Home = (): JSX.Element => (
                 </table>
               </div>
 
-              <div className="w-1/2 px-20 py-6">
+              <div className="w-1/2 px-16 xl:px-20 py-6">
                 <table className="w-full h-full">
                   <tbody>
                     <tr>
