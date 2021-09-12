@@ -18,6 +18,15 @@ $ sh docker/run.sh
 $ sh docker/exec.sh
 ```
 
+### Test Static Site
+```
+# in the container
+$ cd app
+$ npm run build
+$ npm run export
+$ npx serve out
+```
+
 ## Reference
 #### Template
 This repository uses the following template.
