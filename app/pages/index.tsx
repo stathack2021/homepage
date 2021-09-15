@@ -409,7 +409,7 @@ export const Home = (): JSX.Element => {
                       </tr>
                       <tr>
                         <td>所在地</td>
-                        <td>〒113-0033<br />東京都文京区本郷6丁目25番14号</td>
+                        <td>〒113-0033<br />東京都文京区本郷6丁目25番14号 (HONGO EGG 内)</td>
                       </tr>
                       <tr>
                         <td>設立年月日</td>
