@@ -1,0 +1,24 @@
+{
+    "title": {
+        "ja": "StatHack(スタットハック)| 最先端の AI 開発・コンサルティング",
+        "en": "StatHack | Cutting-edge AI development and consulting"
+    },
+    "about": {
+        "title": {
+            "no_br": {
+                "ja": "“データを原動力に社会を次の時代へ”",
+                "en": "\"Toward a data-driven next-generation society\""
+            },
+            "br": {
+                "former": {
+                    "ja": "“データを原動力に",
+                    "en": "\"Toward a data-driven"
+                },
+                "latter": {
+                    "ja": "社会を次の時代へ”",
+                    "en": "next-generation society\""
+                }
+            }
+        }
+    }
+}

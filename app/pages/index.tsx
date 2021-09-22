@@ -1,16 +1,18 @@
 import Head from 'next/head'
 import { useState } from "react";
+import useLocale from "../hooks/useLocale"
 
 export const Home = (): JSX.Element => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuFunction = () => {
     setOpenMenu(!openMenu);
   }
+  const [ locale, t ] = useLocale()
 
   return (
     <div className="bg-black">
       <Head>
-        <title>StatHack(スタットハック)| 最先端の AI 開発・コンサルティング</title>
+        <title>{ t.title }</title>
         <link rel="icon" href="/favicon.svg" />
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet'></link>
         <script src="https://sdk.form.run/js/v2/formrun.js"></script>
@@ -66,11 +68,14 @@ export const Home = (): JSX.Element => {
       <section className="text-white body-font bg-about" id="about">
         <div className="container lg:px-5 py-24 mx-auto flex flex-wrap">
           <h1 className="text-5xl lg:text-6xl text-white font-en font-semibold title-font mb-2 pl-8 md:pl-16 lg:w-2/5">
-            <span className="text-lg font-jp font-bold">私たちについて</span><br />
+            {
+              locale == "ja" && <><span className="text-lg font-jp font-bold">私たちについて</span><br /></>
+            }
             ABOUT US
           </h1>
           <div className="lg:w-3/5 pl-8 md:pl-16 pr-8 md:pr-14 lg:pr-0 font-jp font-medium">
-            <h2 className="text-3xl xl:text-4xl py-5">“データを原動力に<br className="md:hidden"/>社会を次の時代へ”</h2>
+            <h2 className="text-3xl xl:text-4xl py-5 md:hidden" >{ t.about.title.br.former}<br/>{ t.about.title.br.latter}</h2>
+            <h2 className="text-3xl xl:text-4xl py-5 hidden md:block" >{ t.about.title.no_br}</h2>
             <p className="leading-relaxed text-base mt-5 w-full xl:w-5/6 2xl:w-2/3">
               StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、
               ビジネスの質や効率をさらに高めるテクニックを提供します。<br />
