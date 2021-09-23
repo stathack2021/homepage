@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import { useState } from "react";
-import useLocale from "../hooks/useLocale"
+import useLocale from "../../hooks/useLocale"
 
 export const Home = (): JSX.Element => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuFunction = () => {
     setOpenMenu(!openMenu);
   }
-  const [ locale, t ] = useLocale("ja")
+  const [ locale, t ] = useLocale("en")
 
   return (
     <div className="bg-black">
