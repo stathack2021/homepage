@@ -18,7 +18,7 @@ export const Home = (): JSX.Element => {
         <script src="https://sdk.form.run/js/v2/formrun.js"></script>
       </Head>
 
-      <header className="text-white body-font bg-sp-fv md:bg-fv bg-no-repeat bg-cover bg-center h-90vh md:h-50vh lg:h-90vh">
+      <header className="text-white body-font bg-sp-fv md:bg-fv bg-no-repeat bg-cover bg-center h-screen md:h-50vh lg:h-screen">
         <div className="container mx-auto flex flex-wrap py-8 lg:py-16 flex-col md:flex-row items-center px-8 xl:px-16">
           <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 mx-auto xl:w-96">
             <img className="hidden lg:block" src="/images/logo_white.svg" alt="Logo" height={'64'} width={'300'} />
@@ -61,7 +61,32 @@ export const Home = (): JSX.Element => {
             </div>
             
           }
-        
+        </div>
+        <div className="flex flex-wrap content-center md:h-40vh lg:h-70vh">
+        <div className="container relative mx-auto my-auto md:h-20vh lg:h-50vh py-8 lg:py-16 flex-col md:flex-row items-center px-8 xl:px-16">
+          <img className="absolute top-48 my-auto hidden lg:block" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'800'} />
+          <img className="absolute left-28 ml-20 top-10 my-auto mix-blend-overlay hidden lg:block" src="/images/logo_symbol.svg" alt="Logo" height={'140'} width={'500'} />
+          
+          <img className="absolute top-0 my-auto hidden md:block lg:hidden" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'600'} />
+          <img className="absolute left-28 ml-10 -top-20 my-auto mix-blend-overlay hidden md:block lg:hidden" src="/images/logo_symbol.svg" alt="Logo" height={'140'} width={'300'} />
+
+          <img className="absolute top-40 my-auto md:hidden" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'300'} />
+          <img className="absolute left-12 top-20 my-auto mix-blend-overlay md:hidden" src="/images/logo_symbol.svg" alt="Logo" height={'140'} width={'250'} />
+          
+          {
+            locale == "ja" ?
+            <h2 className="absolute hidden md:block md:top-32 lg:top-96 my-auto text-3xl xl:text-4xl font-jp tracking-mission ml-10" >{ t.header.mission}</h2>
+            :
+            <h2 className="absolute hidden md:block md:top-32 lg:top-96 my-auto text-3xl xl:text-4xl font-en tracking-wide ml-5" >{ t.header.mission}</h2>
+          }
+            
+          {
+            locale == "ja" ?
+            <h2 className="absolute top-64 md:hidden my-auto text-xl font-jp tracking-mission ml-10" >{t.header.mission_sp.former}<br />{ t.header.mission_sp.latter}</h2>
+            :
+            <h2 className="absolute top-64 md:hidden my-auto text-xl font-en tracking-wide ml-5" >{t.header.mission_sp.former}<br />{ t.header.mission_sp.latter}</h2>
+          }
+        </div>
         </div>
       </header>
 
