@@ -20,6 +20,7 @@ const useLocale = () => {
 
     const langDict: { [key: string]: any } = langFilter(locale, langsDict);
 
+    console.log(langDict)
     return [ locale, langDict ];
 };
 

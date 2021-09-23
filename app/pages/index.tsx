@@ -77,10 +77,8 @@ export const Home = (): JSX.Element => {
             <h2 className="text-3xl xl:text-4xl py-5 md:hidden" >{ t.about.title.br.former}<br/>{ t.about.title.br.latter}</h2>
             <h2 className="text-3xl xl:text-4xl py-5 hidden md:block" >{ t.about.title.no_br}</h2>
             <p className="leading-relaxed text-base mt-5 w-full xl:w-5/6 2xl:w-2/3">
-              StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、
-              ビジネスの質や効率をさらに高めるテクニックを提供します。<br />
-              私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、
-              社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。
+              { t.about.content1 }<br />
+              { t.about.content2 }
             </p>
             <img className="mix-blend-overlay" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
           </div>
@@ -91,7 +89,9 @@ export const Home = (): JSX.Element => {
         <div className="container px-5 py-16 lg:py-36 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-5xl lg:text-6xl font-en font-semibold title-font text-white mb-4">
-              <span className="text-lg font-jp font-bold">バリュー</span><br />
+              {
+                locale == "ja" && <><span className="text-lg font-jp font-bold">バリュー</span><br /></>
+              }
               VALUE
             </h1>
             <div className="flex mt-6 justify-center">
@@ -108,10 +108,10 @@ export const Home = (): JSX.Element => {
                     <span className="text-base font-en font-semibold">value</span><br />
                     <span className="text-6xl font-en font-semibold">01</span>
                   </div>
-                  <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">ビジネス課題に<br />真摯に向き合う</div>
+                  <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">{ t.value.first.title.former }<br />{ t.value.first.title.latter }</div>
                 </div>
                 <p className="leading-relaxed font-jp font-medium text-base text-left">
-                  私たちは、お客様それぞれの持つビジネス課題やデータに対し、個々の特性を加味した最適なソリューションを真摯に求め続けます。
+                  { t.value.first.content }
                 </p>
               </div>
             </div>
@@ -123,10 +123,10 @@ export const Home = (): JSX.Element => {
                     <span className="text-base font-en font-semibold">value</span><br />
                     <span className="text-6xl font-en font-semibold">02</span>
                   </div>
-                  <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">最先端技術を<br />社会に実装する</div>
+                  <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">{ t.value.second.title.former }<br />{ t.value.second.title.latter }</div>
                 </div>
                 <p className="leading-relaxed font-jp font-medium text-base text-left">
-                  私たちは、機械学習分野の最前線で研究開発を続けます。その中で培われた最先端の技術を結集してお客様により質の高いサービスを提供します。
+                  { t.value.second.content }
                 </p>
               </div>
             </div>
@@ -138,10 +138,10 @@ export const Home = (): JSX.Element => {
                     <span className="text-base font-en font-semibold">value</span><br />
                     <span className="text-6xl font-en font-semibold">03</span>
                   </div>
-                  <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">常に学びを得て<br />向上し続ける</div>
+                  <div className="w-3/4 text-xl xl:text-2xl font-jp font-medium text-left pl-5">{ t.value.third.title.former }<br />{ t.value.third.title.latter }</div>
                 </div>
                 <p className="leading-relaxed font-jp font-medium text-base text-left">
-                  私たちは、急速に変化し続ける時代の中で常に向上し続けます。貪欲に学びを求め、お客様のさらなる成果へとつなげる機会を逃しません。
+                { t.value.third.content }
                 </p>
               </div>
             </div>
@@ -152,7 +152,10 @@ export const Home = (): JSX.Element => {
       <section className="text-white body-font" id="service">
         <div className="py-16 lg:py-28 bg-sh-gray shadow-lg rounded-lg my-10 lg:my-20 mx-4 lg:mx-8 xl:mx-20 px-4 md:px-16 lg:px-0">
           <div className="text-center mb-20">
-            <p className="text-lg font-jp font-bold py-2 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">事業概要</p>
+            {
+              locale == "ja" &&
+              <p className="text-lg font-jp font-bold py-2 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">事業概要</p>
+            }
             <h1 className="text-5xl lg:text-6xl font-en font-semibold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">
               SERVICE
             </h1>
@@ -162,10 +165,10 @@ export const Home = (): JSX.Element => {
           </div>
 
           <div className="font-jp font-medium text-sh-black">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl py-5 font-bold text-center">AI ソリューション事業</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl py-5 font-bold text-center">{ t.service.description.title }</h2>
             <p className="leading-relaxed text-base mt-5 text-left lg:text-center">
-              StatHack では、データの有効活用によるお客様の成果の更なる向上をもたらす AI ソリューションを提供します。<br/>
-              AI 技術導入の検討段階でのご相談から開発、導入、運用支援まで、お客様をサポートさせていただきます。
+              { t.service.description.content.former }<br/>
+              { t.service.description.content.latter }
             </p>
           </div>
         
@@ -178,12 +181,12 @@ export const Home = (): JSX.Element => {
               </div>
               <div className="flex-grow text-left lg:ml-20 mt-6 w-20 pt-10 lg:pt-20">
                 <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 01</p>
-                <h2 className="text-3xl md:text-4xl py-2">コンピュータビジョン</h2>
+                <h2 className="text-3xl md:text-4xl py-2">{ t.service.example.first.title }</h2>
                 <p className="leading-relaxed text-base font-jp font-medium mb-5">
-                  CV、画像分析
+                  {t.service.example.first.subtitle }
                 </p>
                 <p className="leading-relaxed text-base font-jp font-medium">
-                  コンピュータビジョンは、コンピュータにより人間に近い認知方法で画像や動画を処理することを目指す分野です。深層学習の技術の発展と共に最も大きく成長してきた分野であり、現在では様々なタスクにおいて人間を超える精度を記録するほどに成熟しています。
+                  {t.service.example.first.description}
                 </p>
 
                 <div className="lg:hidden w-full py-5">
@@ -198,9 +201,9 @@ export const Home = (): JSX.Element => {
                       </svg>
                     </div>
                     <div className="flex-grow pl-6">
-                      <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2">物体認識</h2>
+                      <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2">{ t.service.example.first.content.first.title }</h2>
                       <p className="leading-relaxed text-base font-jp font-medium">
-                        画像中の特定要素を抽出・認識することができます。画像中に含まれる特定要素の数え上げや異常物の検知などに利用されます。
+                      { t.service.example.first.content.first.description }
                       </p>
                     </div>
                   </div>
@@ -211,9 +214,9 @@ export const Home = (): JSX.Element => {
                       </svg>
                     </div>
                     <div className="flex-grow pl-6">
-                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">動画予測</h2>
+                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">{ t.service.example.first.content.second.title }</h2>
                       <p className="leading-relaxed text-base font-jp font-medium">
-                        ある時刻までの動画情報から次時刻の予測をします。たとえば、ある時刻の天気図から次時刻の雲の動きの予測などを行うことができます。
+                        { t.service.example.first.content.second.description }
                       </p>
                     </div>
                   </div>
@@ -224,12 +227,12 @@ export const Home = (): JSX.Element => {
             <div className="flex items-top lg:w-5/6 mx-auto border-b border-gray-200 flex-row">
               <div className="flex-grow text-left lg:mr-20 mt-6 pt-10 lg:pt-20 w-20">
                 <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 02</p>
-                <h2 className="text-3xl md:text-4xl py-2">自然言語処理</h2>
+                <h2 className="text-3xl md:text-4xl py-2">{t.service.example.second.title}</h2>
                 <p className="leading-relaxed text-base font-jp font-medium mb-5">
-                  NLP、テキスト分析
+                  {t.service.example.second.subtitle}
                 </p>
                 <p className="leading-relaxed text-base font-jp font-medium">
-                  自然言語処理は、コンピュータにより人間が日常使う言語（自然言語）から情報を抽出し処理することを目指す分野です。人間の高度な情報処理に密接にかかわるため難しい分野であるとされてきましたが、近年では新たなモデルの登場などにより目覚ましい発展を遂げています。
+                  {t.service.example.second.description}
                 </p>
 
                 <div className="lg:hidden w-full py-5">
@@ -245,9 +248,9 @@ export const Home = (): JSX.Element => {
                       </svg>
                     </div>
                     <div className="flex-grow pl-6">
-                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">文書埋め込み</h2>
+                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">{ t.service.example.second.content.first.title}</h2>
                       <p className="leading-relaxed text-base font-jp font-medium">
-                        テキストデータを定量化し、類似性や関係性を分析します。文書検索システムやSNSなどの評判分析システムなどに応用されます。
+                        {t.service.example.second.content.first.description}
                       </p>
                     </div>
                   </div>
@@ -259,9 +262,9 @@ export const Home = (): JSX.Element => {
                       </svg>
                     </div>
                     <div className="flex-grow pl-6">
-                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">対話システム</h2>
+                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">{ t.service.example.second.content.second.title}</h2>
                       <p className="leading-relaxed text-base font-jp font-medium">
-                        テキストに対して自然に応答するシステムを構築します。カスタマーサポートの自動化などに利用できます。
+                        {t.service.example.second.content.second.description}
                       </p>
                     </div>
                   </div>
@@ -278,12 +281,12 @@ export const Home = (): JSX.Element => {
               </div>
               <div className="flex-grow text-left lg:ml-20 mt-6 pt-10 lg:pt-20 w-20">
                 <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 03</p>
-                <h2 className="text-3xl md:text-4xl py-2">その他データ分析</h2>
+                <h2 className="text-3xl md:text-4xl py-2">{ t.service.example.third.title }</h2>
                 <p className="leading-relaxed text-base font-jp font-medium mb-5">
-                  数値で表されるデータ全般の分析
+                  {t.service.example.third.subtitle }
                 </p>
                 <p className="leading-relaxed text-base font-jp font-medium">
-                  上記の画像・テキストデータに限らず、数値で表すことのできるデータであれば機械学習の対象となります。弊社ではお客様の持っていらっしゃるデータを有効に活用できる方法を提案いたしますので、お気軽にご相談ください。
+                  {t.service.example.third.description}
                 </p>
 
                 <div className="lg:hidden w-full py-5">
@@ -298,9 +301,9 @@ export const Home = (): JSX.Element => {
                       </svg>
                     </div>
                     <div className="flex-grow pl-6">
-                      <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2">購買データ分析による売上最適化</h2>
+                      <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2">{ t.service.example.third.content.first.title }</h2>
                       <p className="leading-relaxed text-base font-jp font-medium">
-                        これまでの商品の売上数のデータをもとに需要を予測し、最適な仕入れや在庫をAIによって提案します。
+                        { t.service.example.third.content.first.description }
                       </p>
                     </div>
                   </div>
@@ -312,9 +315,9 @@ export const Home = (): JSX.Element => {
                       </svg>
                     </div>
                     <div className="flex-grow pl-6">
-                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">センサーを用いた予測</h2>
+                      <h2 className="text-gray-900 text-lg title-font font-jp font-bold mb-2">{ t.service.example.third.content.second.title }</h2>
                       <p className="leading-relaxed text-base font-jp font-medium">
-                        工場の熱感知センサーなどのセンサーデータをもとに異常を検知したり、数分後に起こりうる異常を予測したりするシステムを構築します。
+                        { t.service.example.third.content.second.description }
                       </p>
                     </div>
                   </div>
@@ -334,7 +337,12 @@ export const Home = (): JSX.Element => {
         <div className="container px-12 md:px-40 lg:px-24 py-16 lg:py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-5xl lg:text-6xl font-en font-semibold title-font text-white mb-4">
-              <span className="text-lg font-jp font-bold">役員紹介</span><br />
+              {
+                locale == "ja" &&
+                <>
+                <span className="text-lg font-jp font-bold">役員紹介</span><br />
+                </>
+              }
               MEMBER
             </h1>
             <div className="flex mt-6 justify-center">
@@ -346,14 +354,15 @@ export const Home = (): JSX.Element => {
             <div className="lg:w-1/3 lg:mb-0 mb-20">
               <div className="h-full text-center">
                 <img alt="Ryoto Matsuba" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/rmatsuba.jpg" />
-                <p className="text-gray-100">CEO</p>
-                <h2 className="text-white font-medium title-font tracking-wider text-4xl">松葉 亮人</h2>
-                <p className="text-gray-100">Ryoto Matsuba</p>
+                <p className="text-gray-100">{ t.member.first.role }</p>
+                <h2 className="text-white font-medium title-font tracking-wider text-4xl">{ t.member.first.name }</h2>
+                {
+                  locale == "ja" &&
+                  <p className="text-gray-100">{t.member.first.name_sub}</p>
+                }
                 <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
                 <p className="leading-relaxed lg:px-4 xl:px-16 text-left">
-                  早稲田大学先進理工学部 所属。<br />
-                  松尾研究所の共同研究プロジェクトに参加し、
-                  前職のAIスタートアップでは製品開発を主導した。
+                  {t.member.first.introduction}
                 </p>
               </div>
             </div>
@@ -361,13 +370,15 @@ export const Home = (): JSX.Element => {
             <div className="lg:w-1/3 lg:mb-0 mb-20">
               <div className="h-full text-center">
                 <img alt="Tomohiro Inoue" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/tinoue.jpg" />
-                <p className="text-gray-100">取締役</p>
-                <h2 className="text-white font-medium title-font tracking-wider text-4xl">井上 智裕</h2>
-                <p className="text-gray-100">Tomohiro Inoue</p>
+                <p className="text-gray-100">{ t.member.second.role }</p>
+                <h2 className="text-white font-medium title-font tracking-wider text-4xl">{ t.member.second.name }</h2>
+                {
+                  locale == "ja" &&
+                  <p className="text-gray-100">{ t.member.second.name_sub }</p>
+                }
                 <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
                 <p className="leading-relaxed lg:px-4 xl:px-16 text-left">
-                  早稲田大学先進理工学部 所属。<br />
-                  ハッカソンでの最優秀賞受賞、大学講義への教材アプリの提供など開発経験多数。
+                  {t.member.second.introduction}
                 </p>
               </div>
             </div>
@@ -375,14 +386,15 @@ export const Home = (): JSX.Element => {
             <div className="lg:w-1/3 lg:mb-0 mb-20">
               <div className="h-full text-center">
                 <img alt="Ken Murata" className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/kmurata.jpg" />
-                <p className="text-gray-100">取締役</p>
-                <h2 className="text-white font-medium title-font tracking-wider text-4xl">村田 健</h2>
-                <p className="text-gray-100">Ken Murata</p>
+                <p className="text-gray-100">{ t.member.third.role }</p>
+                <h2 className="text-white font-medium title-font tracking-wider text-4xl">{ t.member.third.name}</h2>
+                {
+                  locale == "ja" &&
+                  <p className="text-gray-100">{ t.member.third.name_sub }</p>
+                }
                 <span className="inline-block h-1 w-10 rounded bg-sh-blue mt-6 mb-4"></span>
                 <p className="leading-relaxed lg:px-4 xl:px-16 text-left">
-                  東京大学工学系研究科技術経営戦略専攻 所属。
-                  松尾研究所の共同研究プロジェクトに参加。
-                  AIスタートアップでWebアプリや画像処理の実務経験多数。
+                  {t.member.third.introduction}
                 </p>
               </div>
             </div>
@@ -395,7 +407,12 @@ export const Home = (): JSX.Element => {
         <div className="container lg:px-5 py-16 lg:py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-5xl lg:text-6xl font-semibold font-en title-font text-sh-black mb-4">
-              <span className="text-lg font-bold font-jp">会社概要</span><br />
+              {
+                locale == "ja" &&
+                <>
+                  <span className="text-lg font-bold font-jp">会社概要</span><br />
+                </>
+              }
               COMPANY
             </h1>
             <div className="flex mt-6 justify-center">
@@ -409,35 +426,35 @@ export const Home = (): JSX.Element => {
                   <table className="w-full h-1/2 md:h-full">
                     <tbody>
                       <tr>
-                        <td>会社名</td>
-                        <td>株式会社StatHack</td>
+                        <td>{ t.company.name.label }</td>
+                        <td>{ t.company.name.item }</td>
                       </tr>
                       <tr>
-                        <td>所在地</td>
-                        <td>〒113-0033<br />東京都文京区本郷6丁目25番14号 (HONGO EGG 内)</td>
+                        <td>{ t.company.location.label }</td>
+                        <td>〒{t.company.location.item.postal_code}<br />{ t.company.location.item.address }</td>
                       </tr>
                       <tr>
-                        <td>設立年月日</td>
-                        <td>2021年8月25日</td>
+                        <td>{ t.company.establishment.label}</td>
+                        <td>{ t.company.establishment.item}</td>
                       </tr>
                     </tbody>
                   </table>
                   <table className="w-full h-1/2 my-10 md:hidden">
                     <tbody>
                       <tr>
-                        <td>役員</td>
+                        <td>{ t.company.member.title }</td>
                       </tr>
                       <tr>
-                        <td>代表取締役CEO</td>
-                        <td>松葉 亮人</td>
+                        <td>{ t.company.member.first.label }</td>
+                        <td>{ t.company.member.first.item }</td>
                       </tr>
                       <tr>
-                        <td>取締役</td>
-                        <td>井上 智裕</td>
+                        <td>{ t.company.member.second.label }</td>
+                        <td>{ t.company.member.second.item }</td>
                       </tr>
                       <tr>
-                        <td>取締役</td>
-                        <td>村田 健</td>
+                        <td>{ t.company.member.third.label }</td>
+                        <td>{ t.company.member.third.item }</td>
                       </tr>
                     </tbody>
                   </table>
@@ -447,19 +464,19 @@ export const Home = (): JSX.Element => {
                   <table className="w-full h-full">
                     <tbody>
                       <tr>
-                        <td>役員</td>
+                        <td>{ t.company.member.title }</td>
                       </tr>
                       <tr>
-                        <td>代表取締役CEO</td>
-                        <td>松葉 亮人</td>
+                        <td>{ t.company.member.first.label }</td>
+                        <td>{ t.company.member.first.item }</td>
                       </tr>
                       <tr>
-                        <td>取締役</td>
-                        <td>井上 智裕</td>
+                        <td>{ t.company.member.second.label }</td>
+                        <td>{ t.company.member.second.item }</td>
                       </tr>
                       <tr>
-                        <td>取締役</td>
-                        <td>村田 健</td>
+                        <td>{ t.company.member.third.label }</td>
+                        <td>{ t.company.member.third.item }</td>
                       </tr>
                     </tbody>
                   </table>
@@ -475,7 +492,12 @@ export const Home = (): JSX.Element => {
         <div className="container px-5 py-16 lg:py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-5xl lg:text-6xl font-en font-semibold title-font text-white mb-4">
-              <span className="text-lg font-jp font-bold">お問い合わせ</span><br />
+              {
+                locale == "ja" &&
+                <>
+                <span className="text-lg font-jp font-bold">お問い合わせ</span><br />
+                </>
+              }
               CONTACT
             </h1>
             <div className="flex mt-6 justify-center">
@@ -486,33 +508,33 @@ export const Home = (): JSX.Element => {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label htmlFor="company" className="leading-7 text-sm">会社名または組織名</label>
+                  <label htmlFor="company" className="leading-7 text-sm">{ t.contact.organization }</label>
                   <input type="text" id="company" name="会社名または組織名" className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-sh-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                 </div>
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label htmlFor="name" className="leading-7 text-sm">お名前 [必須]</label>
+                  <label htmlFor="name" className="leading-7 text-sm">{ t.contact.name }</label>
                   <input type="text" id="name" name="お名前" data-formrun-required className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                   {/* <div data-formrun-show-if-error="お名前">お名前を入力してください</div> */}
                 </div>
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label htmlFor="email" className="leading-7 text-sm">連絡先メールアドレス [必須]</label>
+                  <label htmlFor="email" className="leading-7 text-sm">{ t.contact.mail }</label>
                   <input type="email" id="email" name="メールアドレス" data-formrun-type="email" data-formrun-required className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                   {/* <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div> */}
                 </div>
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label htmlFor="message" className="leading-7 text-sm">お問い合わせ内容 [必須]</label>
+                  <label htmlFor="message" className="leading-7 text-sm">{ t.contact.content }</label>
                   <textarea id="message" name="お問い合わせ内容" data-formrun-required className="w-full bg-sh-gray4 bg-opacity-80 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-64 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                   {/* <div data-formrun-show-if-error="お問い合わせ内容">お問い合わせ内容を入力してください</div> */}
                 </div>
               </div>
               <div className="p-2 w-full mt-10">
-                <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." className="flex mx-auto w-48 md:w-96 h-12 md:h-16 items-center justify-center font-bold text-white bg-gradient-to-l from-sh-light-blue  via-sh-blue to-sh-dark-blue hover:bg-gradient-to-l hover:from-sh-light-blue-hover  hover:via-sh-blue-hover hover:to-sh-dark-blue-hover  border-0 py-2 px-8 focus:outline-none rounded text-lg">送信</button>
+                <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." className="flex mx-auto w-48 md:w-96 h-12 md:h-16 items-center justify-center font-bold text-white bg-gradient-to-l from-sh-light-blue  via-sh-blue to-sh-dark-blue hover:bg-gradient-to-l hover:from-sh-light-blue-hover  hover:via-sh-blue-hover hover:to-sh-dark-blue-hover  border-0 py-2 px-8 focus:outline-none rounded text-lg">{ t.contact.button}</button>
               </div>
             </div>
           </form>
@@ -543,7 +565,7 @@ export const Home = (): JSX.Element => {
             <li className="hover:text-blue-400"><a href="/#contact">CONTACT</a></li>
           </nav>
           <div className="flex-grow flex flex-wrap mx-auto mt-32 text-center text-white">
-            <a className="hover:text-blue-400 font-jp w-full" href="https://docs.google.com/document/d/1aLZxMF1pQr3nnX0IiREiA21fhIzKYtEQ/edit?usp=sharing&ouid=103723920923670350704&rtpof=true&sd=true">プライバシーポリシー</a>
+            <a className="hover:text-blue-400 font-jp w-full" href="https://docs.google.com/document/d/1aLZxMF1pQr3nnX0IiREiA21fhIzKYtEQ/edit?usp=sharing&ouid=103723920923670350704&rtpof=true&sd=true"> { t.footer.privacy_policy}</a>
             <p className="text-sm text-center w-full mx-auto pt-2">© 2021 StatHack, inc.</p>
           </div>
         
