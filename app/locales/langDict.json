@@ -1,0 +1,370 @@
+{
+    "title": {
+        "ja": "StatHack(スタットハック)| 最先端の AI 開発・コンサルティング",
+        "en": "StatHack | Cutting-edge AI development and consulting"
+    },
+    "about": {
+        "title": {
+            "no_br": {
+                "ja": "“データを原動力に社会を次の時代へ”",
+                "en": "\"Toward a data-driven next-generation society\""
+            },
+            "br": {
+                "former": {
+                    "ja": "“データを原動力に",
+                    "en": "\"Toward a data-driven"
+                },
+                "latter": {
+                    "ja": "社会を次の時代へ”",
+                    "en": "next-generation society\""
+                }
+            }
+        },
+        "content1":{
+            "ja": "StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるテクニックを提供します。",
+            "en": "StatHack provides techniques to further improve the quality and efficiency of your business by using cutting-edge technologies with a focus on AI and Deep Learning."
+        },
+        "content2":{
+            "ja": "私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
+            "en": "By sincerely addressing the diverse issues faced by our customers, we will push society as a whole toward a more prosperous era supported by big data."
+        }
+    },
+    "value": {
+        "first": {
+            "title": {
+                "former": {
+                    "ja": "ビジネス課題に",
+                    "en": "Seriously address"
+                },
+                "latter": {
+                    "ja": "真摯に向き合う",
+                    "en": "business issues"
+                }
+            },
+            "content": {
+                "ja": "私たちは、お客様それぞれの持つビジネス課題やデータに対し、個々の特性を加味した最適なソリューションを真摯に求め続けます。",
+                "en": "We will continue to earnestly seek optimal solutions that take into account the unique characteristics of each customer's business issues and data."
+            }
+        },
+        "second": {
+            "title": {
+                "former": {
+                    "ja": "最先端技術を",
+                    "en": "Implement cutting-edge "
+                },
+                "latter": {
+                    "ja": "社会に実装する",
+                    "en": "technologies in society"
+                }
+            },
+            "content": {
+                "ja": "私たちは、機械学習分野の最前線で研究開発を続けます。その中で培われた最先端の技術を結集してお客様により質の高いサービスを提供します。",
+                "en": "We will continue our research and development at the forefront of the machine learning field. We will provide higher quality services to our customers by bringing together the most advanced technologies cultivated in this field."
+            }
+        },
+        "third": {
+            "title": {
+                "former": {
+                    "ja": "常に学びを得て",
+                    "en": "Keep learning"
+                },
+                "latter": {
+                    "ja": "向上し続ける",
+                    "en": "and improving."
+                }
+            },
+            "content": {
+                "ja": "私たちは、急速に変化し続ける時代の中で常に向上し続けます。貪欲に学びを求め、お客様のさらなる成果へとつなげる機会を逃しません。",
+                "en": "We are constantly improving in an era of rapid change. We are eager to learn and never miss an opportunity to help our clients achieve more."
+            }
+        }
+    },
+    "service": {
+        "description": {
+            "title": {
+                "ja": "AI ソリューション事業",
+                "en": "AI Solution Business"
+            },
+            "content": {
+                "former":{
+                    "ja": "StatHack では、データの有効活用によるお客様の成果の更なる向上をもたらす AI ソリューションを提供します。",
+                    "en": "StatHack provides AI solutions that help you make better use of your data to improve your results."
+
+                },
+                "latter": {
+                    "ja": "AI 技術導入の検討段階でのご相談から開発、導入、運用支援まで、お客様をサポートさせていただきます。",
+                    "en": "We will support our customers from consultation at the stage of considering the introduction of AI technology to development, implementation, and operational support."
+                }
+            }
+        },
+        "example": {
+            "first": {
+                "title": {
+                    "ja": "コンピュータビジョン",
+                    "en": "Computer Vision"
+                },
+                "subtitle": {
+                    "ja": "CV、画像分析",
+                    "en": "CV, Image Analysis"
+                },
+                "description": {
+                    "ja": "コンピュータビジョンは、コンピュータにより人間に近い認知方法で画像や動画を処理することを目指す分野です。深層学習の技術の発展と共に最も大きく成長してきた分野であり、現在では様々なタスクにおいて人間を超える精度を記録するほどに成熟しています。",
+                    "en": "Computer vision is a field that aims to allow computers to process images and videos in a cognitive manner similar to humans. It is a field that has grown most significantly with the development of deep learning technology, and has now matured to the point where it records accuracy that exceeds that of humans in various tasks."
+                },
+                "content": {
+                    "first" : {
+                        "title": {
+                            "ja": "物体認識",
+                            "en": "Object Recognition"
+                        },
+                        "description": {
+                            "ja": "画像中の特定要素を抽出・認識することができます。画像中に含まれる特定要素の数え上げや異常物の検知などに利用されます。",
+                            "en": "It is capable of extracting and recognizing specific elements in an image. It is used for counting specific elements in an image and detecting abnormal objects."
+                        }
+                    },
+                    "second" : {
+                        "title": {
+                            "ja": "動画予測",
+                            "en": "Video Prediction"
+                        },
+                        "description": {
+                            "ja": "ある時刻までの動画情報から次時刻の予測をします。たとえば、ある時刻の天気図から次時刻の雲の動きの予測などを行うことができます。",
+                            "en": "Predicts the next time based on video information up to a certain time. For example, from a weather map at a certain time, it is possible to predict the cloud movement at the next time."
+                        }
+                    }
+                }
+            },
+            "second": {
+                "title": {
+                    "ja": "自然言語処理",
+                    "en": "Natural Language Processing"
+                },
+                "subtitle": {
+                    "ja": "NLP、テキスト分析",
+                    "en": "NLP, Text Analysis"
+                },
+                "description": {
+                    "ja": "自然言語処理は、コンピュータにより人間が日常使う言語（自然言語）から情報を抽出し処理することを目指す分野です。人間の高度な情報処理に密接にかかわるため難しい分野であるとされてきましたが、近年では新たなモデルの登場などにより目覚ましい発展を遂げています。",
+                    "en": "Natural language processing is a field that aims to extract and process information from the language (natural language) that people use in their daily lives by using computers. It has been considered to be a difficult field because it is closely related to advanced human information processing, but in recent years, remarkable progress has been made with the emergence of new models."
+                },
+                "content": {
+                    "first" : {
+                        "title": {
+                            "ja": "文書埋め込み",
+                            "en": "Document Embedding"
+                        },
+                        "description": {
+                            "ja": "テキストデータを定量化し、類似性や関係性を分析します。文書検索システムやSNSなどの評判分析システムなどに応用されます。",
+                            "en": "It quantifies text data and analyzes similarities and relationships. It is applied to document retrieval systems, reputation analysis systems for SNS, etc."
+                        }
+                    },
+                    "second" : {
+                        "title": {
+                            "ja": "対話システム",
+                            "en": "Interactive System"
+                        },
+                        "description": {
+                            "ja": "テキストに対して自然に応答するシステムを構築します。カスタマーサポートの自動化などに利用できます。",
+                            "en": "Build a system that responds naturally to text. It can be used to automate customer support."
+                        }
+                    }
+                }
+            },
+            "third": {
+                "title": {
+                    "ja": "その他データ分析",
+                    "en": "Other Data Analysis"
+                },
+                "subtitle": {
+                    "ja": "数値で表されるデータ全般の分析",
+                    "en": "Analysis of all data expressed in numerical form"
+                },
+                "description": {
+                    "ja": "上記の画像・テキストデータに限らず、数値で表すことのできるデータであれば機械学習の対象となります。弊社ではお客様の持っていらっしゃるデータを有効に活用できる方法を提案いたしますので、お気軽にご相談ください。",
+                    "en": "Not only the above image and text data, but any data that can be expressed in numerical values can be subject to machine learning. We will propose a way to effectively utilize your data, so please feel free to contact us."
+                },
+                "content": {
+                    "first" : {
+                        "title": {
+                            "ja": "購買データ分析による売上最適化",
+                            "en": "Sales optimization through purchasing data analysis"
+                        },
+                        "description": {
+                            "ja": "これまでの商品の売上数のデータをもとに需要を予測し、最適な仕入れや在庫をAIによって提案します。",
+                            "en": "It predicts demand based on data on the number of products sold to date, and uses AI to propose optimal purchasing and inventory."
+                        }
+                    },
+                    "second" : {
+                        "title": {
+                            "ja": "センサーを用いた予測",
+                            "en": "Prediction using sensors"
+                        },
+                        "description": {
+                            "ja": "工場の熱感知センサーなどのセンサーデータをもとに異常を検知したり、数分後に起こりうる異常を予測したりするシステムを構築します。",
+                            "en": "We build systems that detect abnormalities and predict possible abnormalities that may occur in the next few minutes based on sensor data such as heat sensors in factories."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "member": {
+        "first": {
+            "role": {
+                "ja": "CEO",
+                "en": "CEO"
+            },
+            "name": {
+                "ja": "松葉 亮人",
+                "en": "Ryoto Matsuba"
+            },
+            "name_sub": {
+                "ja": "Ryoto Matsuba",
+                "en": "Ryoto Matsuba"
+            },
+            "introduction": {
+                "ja": "早稲田大学先進理工学部 所属。松尾研究所の共同研究プロジェクトに参加し、前職のAIスタートアップでは製品開発を主導した。",
+                "en": "Belongs to the School of Advanced Science and Engineering at Waseda University. He has participated in collaborative research projects at Matsuo Research Institute, and led product development at his previous company, an AI startup."
+            }
+        },
+        "second": {
+            "role": {
+                "ja": "取締役",
+                "en": "Director"
+            },
+            "name": {
+                "ja": "井上 智裕",
+                "en": "Tomohiro Inoue"
+            },
+            "name_sub": {
+                "ja": "Tomohiro Inoue",
+                "en": "Tomohiro Inoue"
+            },
+            "introduction": {
+                "ja": "早稲田大学先進理工学部 所属。ハッカソンでの最優秀賞受賞、大学講義への教材アプリの提供など開発経験多数。",
+                "en": "Belongs to the School of Advanced Science and Engineering, Waseda University. He has a lot of development experience, including winning the grand prize at a hackathon and providing teaching material applications for university lectures."
+            }
+        },
+        "third": {
+            "role": {
+                "ja": "取締役",
+                "en": "Director"
+            },
+            "name": {
+                "ja": "村田 健",
+                "en": "Ken Murata"
+            },
+            "name_sub": {
+                "ja": "Ken Murata",
+                "en": "Ken Murata"
+            },
+            "introduction": {
+                "ja": "東京大学工学系研究科技術経営戦略専攻 所属。松尾研究所の共同研究プロジェクトに参加。AIスタートアップでWebアプリや画像処理の実務経験多数。",
+                "en": "Belongs to the Department of Technology Management Strategy, Graduate School of Engineering, The University of Tokyo. Participated in a joint research project at Matsuo Laboratory, and has a lot of practical experience in web applications and image processing at AI startups."
+            }
+        }
+
+    },
+    "company": {
+        "name": {
+            "label": {
+                "ja": "会社名",
+                "en": "Company name"
+            },
+            "item": {
+                "ja": "株式会社StatHack",
+                "en": "StatHack Inc."
+            }
+        },
+        "location": {
+            "label": {
+                "ja": "所在地",
+                "en": "Address"
+            },
+            "item": {
+                "postal_code": {
+                    "ja": "113-0033",
+                    "en": "113-0033"
+                },
+                "address": {
+                    "ja": "東京都文京区本郷6丁目25番14号 (HONGO EGG 内)",
+                    "en": "6-25-14 Hongo, Bunkyo-ku, Tokyo (in Hongo Egg)"
+                }
+            }
+        },
+        "establishment": {
+            "label": {
+                "ja": "設立年月日",
+                "en": "Establishment"
+            },
+            "item": {
+                "ja": "2021年8月25日",
+                "en": "August 25, 2021"
+            }
+        },
+        "member": {
+            "title": {
+                "ja": "役員",
+                "en": "Officers"
+            },
+            "first": {
+                "label": {
+                    "ja": "代表取締役CEO",
+                    "en": "Representative Director, CEO"
+                },
+                "item": {
+                    "ja": "松葉 亮人",
+                    "en": "Ryoto Matsuba"
+                }
+            },
+            "second": {
+                "label": {
+                    "ja": "取締役",
+                    "en": "Director"
+                },
+                "item": {
+                    "ja": "井上 智裕",
+                    "en": "Tomohiro Inoue"
+                }
+            },
+            "third": {
+                "label": {
+                    "ja": "取締役",
+                    "en": "Director"
+                },
+                "item": {
+                    "ja": "村田 健",
+                    "en": "Ken Murata"
+                }
+            }
+        }
+    },
+    "contact": {
+        "organization": {
+            "ja": "会社名または組織名",
+            "en": "Company or organization name"
+        },
+        "name": {
+            "ja": "お名前 [必須]",
+            "en": "Name [required]"
+        },
+        "mail": {
+            "ja": "連絡先メールアドレス [必須]",
+            "en": "Contact e-mail address [required]"
+        },
+        "content": {
+            "ja": "お問い合わせ内容 [必須]",
+            "en": "Details of your inquiry [required]"
+        },
+        "button": {
+            "ja": "送信",
+            "en": "Submit"
+        }
+    },
+    "footer": {
+        "privacy_policy": {
+            "ja": "プライバシーポリシー",
+            "en": "PRIVACY POLICY"
+        }
+    }
+}
