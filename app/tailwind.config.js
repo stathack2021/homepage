@@ -28,7 +28,14 @@ module.exports = {
       },
       height: {
         '90vh': '90vh',
+        '70vh': '70vh',
         '50vh': '50vh',
+        '40vh': '40vh',
+        '30vh': '30vh',
+        '20vh': '20vh',
+      },
+      letterSpacing: {
+        'mission': '.25em'
       }
     },
     fontFamily: {
