@@ -245,8 +245,8 @@
         },
         "second": {
             "role": {
-                "ja": "取締役",
-                "en": "Director"
+                "ja": "CTO",
+                "en": "CTO"
             },
             "name": {
                 "ja": "井上 智裕",
@@ -263,8 +263,8 @@
         },
         "third": {
             "role": {
-                "ja": "取締役",
-                "en": "Director"
+                "ja": "COO",
+                "en": "COO"
             },
             "name": {
                 "ja": "村田 健",
@@ -335,8 +335,8 @@
             },
             "second": {
                 "label": {
-                    "ja": "取締役",
-                    "en": "Director"
+                    "ja": "取締役CTO",
+                    "en": "Director, CTO"
                 },
                 "item": {
                     "ja": "井上 智裕",
@@ -345,8 +345,8 @@
             },
             "third": {
                 "label": {
-                    "ja": "取締役",
-                    "en": "Director"
+                    "ja": "取締役COO",
+                    "en": "Director, COO"
                 },
                 "item": {
                     "ja": "村田 健",
