@@ -130,22 +130,22 @@
                 "content": {
                     "first" : {
                         "title": {
-                            "ja": "物体認識",
-                            "en": "Object Recognition"
+                            "ja": "画像分類",
+                            "en": "Image Classification"
                         },
                         "description": {
-                            "ja": "画像中の特定要素を抽出・認識することができます。画像中に含まれる特定要素の数え上げや異常物の検知などに利用されます。",
-                            "en": "It is capable of extracting and recognizing specific elements in an image. It is used for counting specific elements in an image and detecting abnormal objects."
+                            "ja": "カメラによる撮影画像を元に分類を行います。製造ラインでの不良品の自動検出などに応用されます。",
+                            "en": "Classification is performed based on images taken by a camera. It is applied to the automatic detection of defective products in manufacturing lines."
                         }
                     },
                     "second" : {
                         "title": {
-                            "ja": "動画予測",
-                            "en": "Video Prediction"
+                            "ja": "文字認識",
+                            "en": "Optical Character Recognition"
                         },
                         "description": {
-                            "ja": "ある時刻までの動画情報から次時刻の予測をします。たとえば、ある時刻の天気図から次時刻の雲の動きの予測などを行うことができます。",
-                            "en": "Predicts the next time based on video information up to a certain time. For example, from a weather map at a certain time, it is possible to predict the cloud movement at the next time."
+                            "ja": "画像に含まれる文字情報を認識・抽出します。膨大な量の書類から必要な情報だけを抽出するなどの応用があります。",
+                            "en": "Recognizes and extracts text information contained in images. It has applications such as extracting only the necessary information from a huge amount of documents."
                         }
                     }
                 }
@@ -166,12 +166,12 @@
                 "content": {
                     "first" : {
                         "title": {
-                            "ja": "文書埋め込み",
-                            "en": "Document Embedding"
+                            "ja": "文書検索システム",
+                            "en": "Document Retrieval Systems"
                         },
                         "description": {
-                            "ja": "テキストデータを定量化し、類似性や関係性を分析します。文書検索システムやSNSなどの評判分析システムなどに応用されます。",
-                            "en": "It quantifies text data and analyzes similarities and relationships. It is applied to document retrieval systems, reputation analysis systems for SNS, etc."
+                            "ja": "文書情報を的確に定量化し、検索システムを構築します。これにより、必要な文書情報を検索者の経験によらず取得できます。",
+                            "en": "We build a search system by accurately quantifying document information. This makes it possible to retrieve the necessary document information without depending on the experience of the searcher."
                         }
                     },
                     "second" : {
@@ -180,8 +180,8 @@
                             "en": "Interactive System"
                         },
                         "description": {
-                            "ja": "テキストに対して自然に応答するシステムを構築します。カスタマーサポートの自動化などに利用できます。",
-                            "en": "Build a system that responds naturally to text. It can be used to automate customer support."
+                            "ja": "自動でテキストメッセージに応答するシステムを構築します。カスタマーサポートにおける応答の自動化やオペレーターの支援に応用されます。",
+                            "en": "Build a system that automatically responds to text messages. It is applied to automate responses and assist operators in customer support."
                         }
                     }
                 }
