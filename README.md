@@ -10,7 +10,7 @@ $ sh docker/build.sh
 
 ### Start the server
 ```
-$ sh docker/run.sh
+$ sh docker/run.sh # run the server on port 3000
 ```
 
 ### Run shell in the docker container
