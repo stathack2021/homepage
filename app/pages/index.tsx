@@ -103,7 +103,8 @@ export const Home = (): JSX.Element => {
             <h2 className="text-3xl xl:text-4xl py-5 hidden md:block" >{ t.about.title.no_br}</h2>
             <p className="leading-relaxed text-base mt-5 w-full xl:w-5/6 2xl:w-2/3">
               { t.about.content1 }<br />
-              { t.about.content2 }
+              { t.about.content2 }<br />
+              { t.about.content3 }
             </p>
             <img className="mix-blend-overlay" src="/images/logo_white.svg" alt="Logo" height={'140'} width={'700'} />
           </div>
@@ -353,6 +354,57 @@ export const Home = (): JSX.Element => {
               <button onClick={() => { window.location.href = '/#contact' }} className="flex mx-auto w-48 md:w-96 h-12 md:h-16 items-center justify-center font-bold text-white bg-gradient-to-l from-sh-light-blue  via-sh-blue to-sh-dark-blue hover:bg-gradient-to-l hover:from-sh-light-blue-hover  hover:via-sh-blue-hover hover:to-sh-dark-blue-hover  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">CONTACT</button>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      <section className="text-gray-600 body-font bg-sh-white" id="news">
+        <div className="container lg:px-5 py-16 lg:py-24 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="text-5xl lg:text-6xl font-semibold font-en title-font text-sh-black mb-4">
+              {
+                locale == "ja" &&
+                <>
+                  <span className="text-lg font-bold font-jp">最新情報</span><br />
+                </>
+              }
+              NEWS
+            </h1>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full bg-sh-blue inline-flex"></div>
+            </div>
+          </div>
+
+          <div className="container px-10 md:px-20 py-12 mx-auto">
+            {(() => {
+                const items = [];
+                for (const content_id in t.news.contents) {
+                  items.push(
+                    <div className="py-8 flex flex-wrap md:flex-nowrap">
+                      <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span className="font-semibold title-font text-gray-700">{t.news.contents[content_id].category}</span>
+                        <span className="mt-1 text-gray-500 text-sm">{t.news.contents[content_id].date}</span>
+                      </div>
+                      <div className="md:flex-grow">
+                        <h2 className="text-xl font-medium text-gray-900 title-font mb-2">{t.news.contents[content_id].title}</h2>
+                        <p className="leading-relaxed">{t.news.contents[content_id].description}</p>
+                        <a className="text-sh-dark-blue inline-flex items-center mt-4" href={t.news.contents[content_id].url}>詳細
+                          <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  )
+                }
+                return (
+                  <div className="-my-8 divide-y-2 divide-gray-200">
+                    {items}
+                  </div>
+                  )
+            })()}
+            
           </div>
         </div>
       </section>
