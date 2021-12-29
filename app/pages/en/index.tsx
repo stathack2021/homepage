@@ -34,10 +34,11 @@ export const Home = (): JSX.Element => {
               </svg>
             </button>
           </div>
-          <nav className="hidden lg:flex md:ml-auto lg:flex-wrap items-center text-lg xl:text-xl justify-center font-en">
+          <nav className="hidden lg:flex md:ml-auto text-lg lg:flex-wrap items-center lg:text-base xl:text-xl justify-center font-en">
             <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
             <a className="mr-5 hover:text-blue-400" href="/#value">VALUE</a>
             <a className="mr-5 hover:text-blue-400" href="/#service">SERVICE</a>
+            <a className="mr-5 hover:text-blue-400" href="/#news">NEWS</a>
             <a className="mr-5 hover:text-blue-400" href="/#member">MEMBER</a>
             <a className="mr-5 hover:text-blue-400" href="/#company">COMPANY</a>
             <a className="mr-5 hover:text-blue-400" href="/#contact">CONTACT</a>
@@ -53,6 +54,7 @@ export const Home = (): JSX.Element => {
                   <li className="hover:text-blue-400"><a href="/#about">― ABOUT US</a></li>
                   <li className="hover:text-blue-400"><a href="/#value">― VALUE</a></li>
                   <li className="hover:text-blue-400"><a href="/#service">― SERVICE</a></li>
+                  <li className="hover:text-blue-400"><a href="/#news">― NEWS</a></li>
                   <li className="hover:text-blue-400"><a href="/#member">― MEMBER</a></li>
                   <li className="hover:text-blue-400"><a href="/#company">― COMPANY</a></li>
                   <li className="hover:text-blue-400"><a href="/#contact">― CONTACT</a></li>
@@ -629,6 +631,7 @@ export const Home = (): JSX.Element => {
             <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
             <a className="mr-5 hover:text-blue-400" href="/#value">VALUE</a>
             <a className="mr-5 hover:text-blue-400" href="/#service">SERVICE</a>
+            <a className="mr-5 hover:text-blue-400" href="/#news">NEWS</a>
             <a className="mr-5 hover:text-blue-400" href="/#member">MEMBER</a>
             <a className="mr-5 hover:text-blue-400" href="/#company">COMPANY</a>
             <a className="mr-5 hover:text-blue-400" href="/#contact">CONTACT</a>
@@ -637,6 +640,7 @@ export const Home = (): JSX.Element => {
             <li className="hover:text-blue-400"><a href="/#about">ABOUT US</a></li>
             <li className="hover:text-blue-400"><a href="/#value">VALUE</a></li>
             <li className="hover:text-blue-400"><a href="/#service">SERVICE</a></li>
+            <li className="hover:text-blue-400"><a href="/#news">NEWS</a></li>
             <li className="hover:text-blue-400"><a href="/#member">MEMBER</a></li>
             <li className="hover:text-blue-400"><a href="/#company">COMPANY</a></li>
             <li className="hover:text-blue-400"><a href="/#contact">CONTACT</a></li>
