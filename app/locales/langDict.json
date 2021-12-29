@@ -37,11 +37,15 @@
             }
         },
         "content1":{
-            "ja": "StatHack (スタットハック) は、AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるテクニックを提供します。",
-            "en": "StatHack provides techniques to further improve the quality and efficiency of your business by using cutting-edge technologies with a focus on AI and Deep Learning."
+            "ja": "StatHack (スタットハック) は、東京大学・松尾研究室発の AI コンサルティングファームです。",
+            "en": "StatHack is an AI consulting firm that originated in the Matsuo Lab at the University of Tokyo."
         },
         "content2":{
-            "ja": "私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
+            "ja": "私たちは AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるソリューションを提供します。",
+            "en": "We provide solutions that further improve the quality and efficiency of business by using cutting-edge technologies with a focus on AI and Deep Learning."
+        },
+        "content3":{
+            "ja": "お客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
             "en": "By sincerely addressing the diverse issues faced by our customers, we will push society as a whole toward a more prosperous era supported by big data."
         }
     },
@@ -223,6 +227,54 @@
                 }
             }
         }
+    },
+    "news": {
+        "contents": [
+            {
+                "category": {
+                    "ja": "プレスリリース",
+                    "en": "PR"
+                },
+                "date": {
+                    "ja": "2021.12.29",
+                    "en": "29 Dec 2021"
+                },
+                "title": {
+                    "ja": "Deep30 から資金調達を実施いたしました",
+                    "en": "We have raised funds from Deep30"
+                },
+                "description": {
+                    "ja": "2021 年 12 月 6 日、Deep30 投資事業有限責任組合を引受先とし、第三者割当増資による資金調達を実施いたしました。",
+                    "en": "On December 6, 2021, the Company raised funds through a third-party allocation of new shares to Deep30."
+                },
+                "url": {
+                    "ja": "https://prtimes.jp/main/html/rd/p/000000001.000092816.html",
+                    "en": "https://prtimes.jp/main/html/rd/p/000000001.000092816.html"
+                }
+            },
+            {
+                "category": {
+                    "ja": "メディア掲載",
+                    "en": "Media"
+                },
+                "date": {
+                    "ja": "2021.12.28",
+                    "en": "28 Dec 2021"
+                },
+                "title": {
+                    "ja": "弊社の記事が日経新聞に掲載されました",
+                    "en": "Our company's article was published in Nikkei Newspaper"
+                },
+                "description": {
+                    "ja": "日本経済新聞の記事「東大・松尾研、起業熱再び　22年は10社前後が創業へ」に弊社が掲載されました。",
+                    "en": "Our company's article was published in Nikkei Newspaper."
+                },
+                "url": {
+                    "ja": "https://www.nikkei.com/article/DGXZQOUC181G60Y1A211C2000000/",
+                    "en": "https://www.nikkei.com/article/DGXZQOUC181G60Y1A211C2000000/"
+                }
+            }
+        ]
     },
     "member": {
         "first": {
