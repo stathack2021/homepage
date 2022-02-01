@@ -232,6 +232,28 @@
         "contents": [
             {
                 "category": {
+                    "ja": "メディア掲載",
+                    "en": "Media"
+                },
+                "date": {
+                    "ja": "2022.01.25",
+                    "en": "25 Jan 2022"
+                },
+                "title": {
+                    "ja": "弊社のサービスを「AISmiley」に掲載いたしました",
+                    "en": "Our service is now available on \"AIsmiley\"."
+                },
+                "description": {
+                    "ja": "AI ポータルメディア「AIsmiley」に弊社の「AI コンサルティング・アプリケーション開発サービス」の紹介ページを掲載いたしました。",
+                    "en": "\"AI consulting and application development service\" is now available on AI portal media \"AIsmiley\"."
+                },
+                "url": {
+                    "ja": "https://aismiley.co.jp/product/stathack_ai-consulting-application-development/",
+                    "en": "https://aismiley.co.jp/product/stathack_ai-consulting-application-development/"
+                }
+            },
+            {
+                "category": {
                     "ja": "プレスリリース",
                     "en": "PR"
                 },
