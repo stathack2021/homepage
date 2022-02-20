@@ -7,6 +7,8 @@ export interface Props {
 export const Footer: React.FC<Props> = (props) => {
   const { locale } = props;
   const t = useLocale(locale);
+  const now = new Date();
+  const year = now.getFullYear();
 
     return (
       <footer className="text-gray-600 body-font font-en">
@@ -36,7 +38,7 @@ export const Footer: React.FC<Props> = (props) => {
         </nav>
         <div className="flex-grow flex flex-wrap mx-auto mt-32 text-center text-white">
           <a className="hover:text-blue-400 font-jp w-full" href="https://docs.google.com/document/d/1aLZxMF1pQr3nnX0IiREiA21fhIzKYtEQ/edit?usp=sharing&ouid=103723920923670350704&rtpof=true&sd=true"> { t.footer.privacy_policy}</a>
-          <p className="text-sm text-center w-full mx-auto pt-2">© 2021 StatHack, inc.</p>
+          <p className="text-sm text-center w-full mx-auto pt-2">© {year} StatHack, inc.</p>
         </div>
       
       </div>
