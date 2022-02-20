@@ -23,8 +23,7 @@ const useLocale = (locale: string) => {
 
     const langDict = langFilter(locale, langsDict);
 
-    console.log(langDict)
-    return [ locale, langDict ];
+    return langDict;
 };
 
 export default useLocale;
