@@ -232,24 +232,46 @@
         "contents": [
             {
                 "category": {
-                    "ja": "メディア掲載",
-                    "en": "Media"
+                    "ja": "お知らせ",
+                    "en": "Information"
                 },
                 "date": {
-                    "ja": "2022.01.25",
-                    "en": "25 Jan 2022"
+                    "ja": "2022.10.08",
+                    "en": "8 Oct 2022"
                 },
                 "title": {
-                    "ja": "弊社のサービスを「AIsmiley」に掲載いたしました",
-                    "en": "Our service is now available on \"AIsmiley\"."
+                    "ja": "無料外観検査サービス「AI外観検査」をリリースいたしました",
+                    "en": "We have released a free visual inspection service \"AI Visual Inspection\"."
                 },
                 "description": {
-                    "ja": "AI ポータルメディア「AIsmiley」に弊社の「AI コンサルティング・アプリケーション開発サービス」の紹介ページを掲載いたしました。",
-                    "en": "\"AI consulting and application development service\" is now available on AI portal media \"AIsmiley\"."
+                    "ja": "AIによる外観検査を手軽にお試しいただける「AI外観検査」をリリースいたしました。お手元の20枚程度の画像を使って、無料でAI外観検査の実現性を検証いたします。",
+                    "en": "We have released \"AI Visual Inspection\", which allows you to easily try out AI-based appearance inspection. We will verify the feasibility of AI visual inspection with about 20 images at your disposal free of charge."
                 },
                 "url": {
-                    "ja": "https://aismiley.co.jp/product/stathack_ai-consulting-application-development/",
-                    "en": "https://aismiley.co.jp/product/stathack_ai-consulting-application-development/"
+                    "ja": "https://ai-gaikan.stathack.jp/",
+                    "en": "https://ai-gaikan.stathack.jp/"
+                }
+            },
+            {
+                "category": {
+                    "ja": "事例紹介",
+                    "en": "Case Example"
+                },
+                "date": {
+                    "ja": "2022.10.08",
+                    "en": "8 Oct 2022"
+                },
+                "title": {
+                    "ja": "パイプ製品の外観検査AIを導入いたしました",
+                    "en": "Introduced AI for visual inspection of pipe products"
+                },
+                "description": {
+                    "ja": "武州工業株式会社様に金属部品の外観検査AI、およびAIの学習が可能なソフトウェア「AI Inspector」を導入いたしました。詳細よりソフトウェアの概要および実際の検品の様子をご覧いただけます。",
+                    "en": "We have introduced visual inspection AI for metal parts and \"AI Inspector\", a software that enables AI training, to Busyu Kogyo Corporation. Please click \"Read more\" to see an overview of the software and an actual inspection."
+                },
+                "url": {
+                    "ja": "https://drive.google.com/file/d/1-m-SB0icFucLs7_IP_6-RPneomMV_kEV/view?pli=1",
+                    "en": "https://drive.google.com/file/d/1-m-SB0icFucLs7_IP_6-RPneomMV_kEV/view?pli=1"
                 }
             },
             {
