@@ -36,17 +36,9 @@
                 }
             }
         },
-        "content1":{
-            "ja": "StatHack (スタットハック) は、東京大学・松尾研究室発の AI コンサルティングファームです。",
-            "en": "StatHack is an AI consulting firm that originated in the Matsuo Lab at the University of Tokyo."
-        },
-        "content2":{
-            "ja": "私たちは AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるソリューションを提供します。",
-            "en": "We provide solutions that further improve the quality and efficiency of business by using cutting-edge technologies with a focus on AI and Deep Learning."
-        },
-        "content3":{
-            "ja": "お客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
-            "en": "By sincerely addressing the diverse issues faced by our customers, we will push society as a whole toward a more prosperous era supported by big data."
+        "content":{
+            "ja": "StatHack (スタットハック) は、東京大学・松尾研究室発のスタートアップ企業です。AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるテクニックを提供します。私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
+            "en": "StatHack is an AI consulting firm that originated in the Matsuo Lab at the University of Tokyo. We provide solutions that further improve the quality and efficiency of business by using cutting-edge technologies with a focus on AI and Deep Learning. By sincerely addressing the diverse issues faced by our customers, we will push society as a whole toward a more prosperous era supported by big data."
         }
     },
     "value": {
