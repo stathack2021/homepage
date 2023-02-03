@@ -28,6 +28,7 @@ export const Home = (): JSX.Element => {
       <Service locale={ locale }/>
       <Company locale={ locale }/>
       <Value locale={ locale }/>
+      <News locale={ locale }/>
       <Member locale={ locale }/>
       <Contact locale={ locale }/>
       <Footer locale={ locale }/>

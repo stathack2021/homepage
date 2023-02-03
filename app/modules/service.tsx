@@ -11,8 +11,7 @@ export const Service: React.FC<Props> = (props) => {
     return (
         
       <div className="text-white body-font" id="service">
-      <div className="py-16 lg:py-28 bg-sh-gray shadow-lg rounded-lg my-10 lg:my-20 mx-4 lg:mx-8 xl:mx-20 px-4 md:px-16 lg:px-0">
-      <img className="mix-blend-overlay" src="images/logo_white.svg" alt="Logo" height={'920'} width={'1920'} />
+      <div className="py-16 lg:py-28 bg-sh-gray shadow-lg">
         <div className="text-center mb-20">
           {
             locale == "ja" &&
