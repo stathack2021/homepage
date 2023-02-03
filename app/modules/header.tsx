@@ -36,6 +36,7 @@ export const Header: React.FC<Props> = (props) => {
             <a className="mr-10 hover:text-blue-400" href="/#service">SERVICE</a>
             <a className="mr-10 hover:text-blue-400" href="/#company">COMPANY</a>
             <a className="mr-10 hover:text-blue-400" href="/#value">VALUE</a>
+            <a className="mr-10 hover:text-blue-400" href="/#news">NEWS</a>
             <a className="mr-10 hover:text-blue-400" href="/#board">BOARD</a>
             <div className="mr-10">
               <div className="w-40 h-9 rounded-full flex justify-center  bg-gradient-to-b from-sh-blue to-sh-dark-blue">
@@ -52,11 +53,11 @@ export const Header: React.FC<Props> = (props) => {
                 <div className="fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
                 <nav  className="lg:hidden mx-auto my-auto text-white font-en z-20 list-none text-left space-y-5" id="mobile-menu">
                   <li className="hover:text-blue-400"><a href="/#about">― ABOUT US</a></li>
-                  <li className="hover:text-blue-400"><a href="/#value">― VALUE</a></li>
                   <li className="hover:text-blue-400"><a href="/#service">― SERVICE</a></li>
-                  <li className="hover:text-blue-400"><a href="/#news">― NEWS</a></li>
-                  <li className="hover:text-blue-400"><a href="/#member">― MEMBER</a></li>
                   <li className="hover:text-blue-400"><a href="/#company">― COMPANY</a></li>
+                  <li className="hover:text-blue-400"><a href="/#value">― VALUE</a></li>
+                  <li className="hover:text-blue-400"><a href="/#news">― NEWS</a></li>
+                  <li className="hover:text-blue-400"><a href="/#board">― BOARD</a></li>
                   <li className="hover:text-blue-400"><a href="/#contact">― CONTACT</a></li>
                 </nav>
               </div>
