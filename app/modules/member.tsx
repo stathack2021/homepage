@@ -10,7 +10,7 @@ export const Member: React.FC<Props> = (props) => {
 
     return (
         
-      <div className="text-white body-font bg-member bg-no-repeat bg-cover" id="member">
+      <div className="text-white body-font bg-member bg-no-repeat bg-cover" id="board">
       <div className="container px-12 md:px-40 lg:px-24 py-16 lg:py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="text-5xl lg:text-6xl font-en font-semibold title-font text-white mb-4">
@@ -20,7 +20,7 @@ export const Member: React.FC<Props> = (props) => {
               <span className="text-lg font-jp font-bold">役員紹介</span><br />
               </>
             }
-            MEMBER
+            BOARD
           </h1>
           <div className="flex mt-6 justify-center">
             <div className="w-16 h-1 rounded-full bg-sh-blue inline-flex"></div>
