@@ -25,11 +25,10 @@ export const Home = (): JSX.Element => {
 
       <Header locale={ locale }/>
       <About locale={ locale }/>
-      <Value locale={ locale }/>
       <Service locale={ locale }/>
-      <News locale={ locale }/>
-      <Member locale={ locale }/>
       <Company locale={ locale }/>
+      <Value locale={ locale }/>
+      <Member locale={ locale }/>
       <Contact locale={ locale }/>
       <Footer locale={ locale }/>
 
