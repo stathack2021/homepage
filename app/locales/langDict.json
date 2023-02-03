@@ -93,13 +93,17 @@
     },
     "service": {
         "description": {
-            "title": {
-                "ja": "AI ソリューション事業",
+            "title1": {
+                "ja": "だれもが使いやすい",
                 "en": "AI Solution Business"
+            },
+            "title2": {
+                "ja": "AIソリューションの提供",
+                "en": ""
             },
             "content": {
                 "former":{
-                    "ja": "StatHack では、データの有効活用によるお客様の成果の更なる向上をもたらす AI ソリューションを提供します。",
+                    "ja": "StatHack では、データの有効活用で課題を解決し、お客様の成果の更なる向上をもたらす AIソリューションを提供します。",
                     "en": "StatHack provides AI solutions that help you make better use of your data to improve your results."
 
                 },
@@ -109,38 +113,63 @@
                 }
             }
         },
+        "solution":{
+            "first": {
+                "content": {
+                    "ja": "StatHackの外観検査AIは、少量のデータで高速・高精度な製品外観検査が可能です。これまで属人化していた検査をAIが代行し、業務の効率化やコスト削減を実現します。"
+                }
+            },
+            "second": {
+                "content": {
+                    "ja": "製造業の納品書・請求書処理業務を省力化。紙の情報を自動で読み取り、経理業務の省力化・データのクラウド化を実現します。"
+                }
+            },
+            "third":{
+                "content":{
+                    "ja": "数値で表すことのできるデータであればAIソリューションの対象です。お客様のお持ちのデータをもとに、課題の解決や活用できる方法を提案いたしますので、お気軽にご相談ください。"
+                }
+            }
+        },
         "example": {
+            "header": {
+                "title": {
+                    "ja": "活用事例"
+                },
+                "content": {
+                    "ja": "AI技術がどのようにクライアント企業さまの業務で活用されているかを紹介します。"
+                }
+            },
             "first": {
                 "title": {
-                    "ja": "コンピュータビジョン",
+                    "ja": "金属パイプ製品の外観検査",
                     "en": "Computer Vision"
                 },
                 "subtitle": {
-                    "ja": "CV、画像分析",
+                    "ja": "武州工業株式会社さま",
                     "en": "CV, Image Analysis"
                 },
                 "description": {
-                    "ja": "コンピュータビジョンは、コンピュータにより人間に近い認知方法で画像や動画を処理することを目指す分野です。深層学習の技術の発展と共に最も大きく成長してきた分野であり、現在では様々なタスクにおいて人間を超える精度を記録するほどに成熟しています。",
+                    "ja": "金属パイプ製品の良品・不良品の分類を行う AI を導入いたしました。大手ベンダーの検査 AI を置き換えることにより、高精度かつ低コストの AI 検査を実現いたしました。",
                     "en": "Computer vision is a field that aims to allow computers to process images and videos in a cognitive manner similar to humans. It is a field that has grown most significantly with the development of deep learning technology, and has now matured to the point where it records accuracy that exceeds that of humans in various tasks."
                 },
                 "content": {
                     "first" : {
                         "title": {
-                            "ja": "画像分類",
+                            "ja": "成果物1. 外観検査AI",
                             "en": "Image Classification"
                         },
                         "description": {
-                            "ja": "カメラによる撮影画像を元に分類を行います。製造ラインでの不良品の自動検出などに応用されます。",
+                            "ja": "99.8 % の高精度の検品に加え、傷のある箇所を赤く可視化することで検査担当者が AI の判断根拠を確認できるようにしています。",
                             "en": "Classification is performed based on images taken by a camera. It is applied to the automatic detection of defective products in manufacturing lines."
                         }
                     },
                     "second" : {
                         "title": {
-                            "ja": "文字認識",
+                            "ja": "成果物2. 学習アプリケーション",
                             "en": "Optical Character Recognition"
                         },
                         "description": {
-                            "ja": "画像に含まれる文字情報を認識・抽出します。膨大な量の書類から必要な情報だけを抽出するなどの応用があります。",
+                            "ja": "お客様自身で AI の学習ができるアプリケーションをご提供いたしました。これにより追加費用無しで新規製品の検査に対応可能です。",
                             "en": "Recognizes and extracts text information contained in images. It has applications such as extracting only the necessary information from a huge amount of documents."
                         }
                     }
@@ -216,6 +245,24 @@
                             "en": "We build systems that detect abnormalities and predict possible abnormalities that may occur in the next few minutes based on sensor data such as heat sensors in factories."
                         }
                     }
+                }
+            }
+        },
+        "contact": {
+            "document":{
+                "button":{
+                    "ja": "資料で詳しく見る"
+                },
+                "description":{
+                    "ja": "導入事例や導入イメージをご紹介"
+                }
+            },
+            "ai":{
+                "button":{
+                    "ja": "無料でAI外観検査"
+                },
+                "description":{
+                    "ja": "少ない画像でもAIが無料で外観検査"
                 }
             }
         }
