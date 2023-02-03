@@ -32,13 +32,16 @@ export const Header: React.FC<Props> = (props) => {
             </button>
           </div>
           <nav className="hidden lg:flex md:ml-auto text-lg lg:flex-wrap items-center lg:text-base xl:text-xl justify-center font-en">
-            <a className="mr-5 hover:text-blue-400" href="/#about">ABOUT US</a>
-            <a className="mr-5 hover:text-blue-400" href="/#value">VALUE</a>
-            <a className="mr-5 hover:text-blue-400" href="/#service">SERVICE</a>
-            <a className="mr-5 hover:text-blue-400" href="/#news">NEWS</a>
-            <a className="mr-5 hover:text-blue-400" href="/#member">MEMBER</a>
-            <a className="mr-5 hover:text-blue-400" href="/#company">COMPANY</a>
-            <a className="mr-5 hover:text-blue-400" href="/#contact">CONTACT</a>
+            <a className="mr-10 hover:text-blue-400" href="/#about">ABOUT US</a>
+            <a className="mr-10 hover:text-blue-400" href="/#service">SERVICE</a>
+            <a className="mr-10 hover:text-blue-400" href="/#company">COMPANY</a>
+            <a className="mr-10 hover:text-blue-400" href="/#value">VALUE</a>
+            <a className="mr-10 hover:text-blue-400" href="/#board">BOARD</a>
+            <div className="mr-10">
+              <div className="w-40 h-9 rounded-full flex justify-center  bg-gradient-to-b from-sh-blue to-sh-dark-blue">
+                <a className="mt-1.5 mb-1 hover:text-blue-400 inline-flex" href="/#contact">CONTACT</a>
+              </div>
+            </div>
           </nav>
 
           {
