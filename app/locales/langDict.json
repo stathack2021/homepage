@@ -177,36 +177,44 @@
             },
             "second": {
                 "title": {
-                    "ja": "自然言語処理",
+                    "ja": "建築足場のネジ留め検査",
                     "en": "Natural Language Processing"
                 },
                 "subtitle": {
-                    "ja": "NLP、テキスト分析",
+                    "ja": "株式会社タカミヤさま",
                     "en": "NLP, Text Analysis"
                 },
                 "description": {
-                    "ja": "自然言語処理は、コンピュータにより人間が日常使う言語（自然言語）から情報を抽出し処理することを目指す分野です。人間の高度な情報処理に密接にかかわるため難しい分野であるとされてきましたが、近年では新たなモデルの登場などにより目覚ましい発展を遂げています。",
+                    "ja": "建築現場のスパイダー（足場）にリベット（ネジの一種）が留まっているか否かを検査する AI を導入いたしました。",
                     "en": "Natural language processing is a field that aims to extract and process information from the language (natural language) that people use in their daily lives by using computers. It has been considered to be a difficult field because it is closely related to advanced human information processing, but in recent years, remarkable progress has been made with the emergence of new models."
                 },
                 "content": {
                     "first" : {
                         "title": {
-                            "ja": "文書検索システム",
+                            "ja": "成果物1. 外観検査 AI",
                             "en": "Document Retrieval Systems"
                         },
                         "description": {
-                            "ja": "文書情報を的確に定量化し、検索システムを構築します。これにより、必要な文書情報を検索者の経験によらず取得できます。",
+                            "ja": "およそ 4 m のスパイダーから 3 mm 程度の非常に小さなリベットを検出するAI を作成いたしました。通常、検出対象に対して全体像が大きい場合は検出が難しくなりますが、弊社アルゴリズムでは細部の情報を失わず、高い精度を実現しています。",
                             "en": "We build a search system by accurately quantifying document information. This makes it possible to retrieve the necessary document information without depending on the experience of the searcher."
                         }
                     },
                     "second" : {
                         "title": {
-                            "ja": "対話システム",
+                            "ja": "成果物2. 外観検査アプリケーション",
                             "en": "Interactive System"
                         },
                         "description": {
-                            "ja": "自動でテキストメッセージに応答するシステムを構築します。カスタマーサポートにおける応答の自動化やオペレーターの支援に応用されます。",
+                            "ja": "外観検査 AI をパソコンから操作するためのアプリケーションを提供いたしました。現場の環境に合わせて検査担当者がタッチパネルで操作しやすいUIを意識して作成しました。",
                             "en": "Build a system that automatically responds to text messages. It is applied to automate responses and assist operators in customer support."
+                        }
+                    },
+                    "third" :{
+                        "title":{
+                            "ja": "検査結果検索アプリケーション"
+                        },
+                        "description":{
+                            "ja": "検査した結果をエビデンスとして残し、検査時の画像や情報を検索できるシステムを構築しました。"
                         }
                     }
                 }
@@ -263,6 +271,81 @@
                 },
                 "description":{
                     "ja": "少ない画像でもAIが無料で外観検査"
+                }
+            }
+        },
+        "flow":{
+            "title":{
+                "ja": "AI ソリューションの開発開始までのプロセス"
+            },
+            "description": {
+                "ja": "丁寧なヒアリングとAI検証、現場の確認によって、貴社が抱える課題の本質に最適なAIソリューションを開発します。"
+            },
+            "steps":{
+                "first": {
+                    "ja": "お問い合わせ"
+                },
+                "second": {
+                    "ja": "ヒアリング"
+                },
+                "third": {
+                    "ja": "簡易AI検証"
+                },
+                "fourth": {
+                    "ja": "現場確認"
+                },
+                "fifth": {
+                    "ja": "ご提案"
+                },
+                "sixth": {
+                    "ja": "開発開始へ"
+                }
+            }
+        },
+        "technology":{
+            "title": {
+                "ja": "AI ソリューションを実現する主な技術"
+            },
+            "description": {
+                "first": {
+                    "ja": "課題に対して最適なAI技術を、StatHackの抱えるAIモジュール群から適切に選択します。"
+                },
+                "second": {
+                    "ja": "※一例であり、他にもさまざまなAI技術がございます。"
+                }
+            },
+            "kinds": {
+                "first": {
+                    "title": {
+                        "ja": "物体検出"
+                    },
+                    "description": {
+                        "ja": "画像の中から特定の物体の種類と位置を特定します。生産ラインにカメラを設置し、製品を数え上げるなどの用途がございます。"
+                    }
+                },
+                "second": {
+                    "title": {
+                        "ja": "画像分類"
+                    },
+                    "description": {
+                        "ja": "画像の特徴に基づいて、被写体を分類します。カメラを用いた良品・不良品の分別などに用いられます。"
+                    }
+                },
+                "third": {
+                    "title": {
+                        "ja": "文字認識"
+                    },
+                    "description": {
+                        "ja": "画像中の文字の種類と位置を特定します。紙媒体の資料を電子化・特定の情報を抽出するなどの用途がございます。"
+                    }
+                },
+                "fourth": {
+                    "title": {
+                        "ja": "異常検知"
+                    },
+                    "description": {
+                        "ja": "正常な音と異常な音を識別します。工場にマイクを設置し、製造機器が正常に動作しているか確認する用途などがございます。"
+                    }
                 }
             }
         }
