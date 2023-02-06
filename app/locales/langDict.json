@@ -225,7 +225,7 @@
                         }
                     }
                 }
-            },
+            }
         },
         "contact": {
             "document":{
@@ -296,7 +296,8 @@
                     "en": "The best AI technology for the task is appropriately selected from StatHack's suite of AI modules."
                 },
                 "second": {
-                    "ja": "*This is just one example, there are many other AI technologies available."
+                    "ja": "※一例であり、他にもさまざまなAI技術がございます。",
+                    "en": "*This is just one example, there are many other AI technologies available."
                 }
             },
             "kinds": {

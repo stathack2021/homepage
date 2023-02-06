@@ -144,7 +144,7 @@ export const Service: React.FC<Props> = (props) => {
 
         <div className="container">
           <div className="flex flex-wrap items-top lg:w-3/5 mx-auto border-b border-gray-200 flex-row">
-            <div className="flex-grow text-left">
+            <div className="flex-grow text-left lg:w-1/2">
               <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 02</p>
               <h2 className="text-3xl md:text-4xl py-2">{ t.service.example.second.title }</h2>
               <p className="leading-relaxed text-base font-jp font-medium mb-5">
@@ -182,17 +182,6 @@ export const Service: React.FC<Props> = (props) => {
                 <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2 text-left">{ t.service.example.second.content.second.title }</h2>
                 <p className="leading-relaxed text-base font-jp font-medium text-left">
                 { t.service.example.second.content.second.description }
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col text-center items-center md:w-1/2 mt-6">
-              <div className="inline-flex items-center justify-center text-sh-blue mb-4 flex-shrink-0">
-                <img src="/images/ex2_4.png" alt="example_1" width={'440'} height={'220'} />
-              </div>
-              <div className="flex-grow pl-6">
-                <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2 text-left">{ t.service.example.third.content.second.title }</h2>
-                <p className="leading-relaxed text-base font-jp font-medium text-left">
-                { t.service.example.third.content.second.description }
                 </p>
               </div>
             </div>
