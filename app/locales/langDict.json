@@ -36,17 +36,9 @@
                 }
             }
         },
-        "content1":{
-            "ja": "StatHack (スタットハック) は、東京大学・松尾研究室発の AI コンサルティングファームです。",
-            "en": "StatHack is an AI consulting firm that originated in the Matsuo Lab at the University of Tokyo."
-        },
-        "content2":{
-            "ja": "私たちは AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるソリューションを提供します。",
-            "en": "We provide solutions that further improve the quality and efficiency of business by using cutting-edge technologies with a focus on AI and Deep Learning."
-        },
-        "content3":{
-            "ja": "お客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
-            "en": "By sincerely addressing the diverse issues faced by our customers, we will push society as a whole toward a more prosperous era supported by big data."
+        "content":{
+            "ja": "StatHack (スタットハック) は、東京大学・松尾研究室発のスタートアップ企業です。AI や Deep Learning を主軸とした最先端技術を用いて、ビジネスの質や効率をさらに高めるテクニックを提供します。私たちはお客様が抱える多種多様な課題と真摯に向き合うことを通し、社会全体をビッグデータに支えられたより豊かな時代へと推し進めます。",
+            "en": "StatHack is a startup company that originated in the Matsuo Lab at the University of Tokyo. We provide solutions that further improve the quality and efficiency of business by using cutting-edge technologies with a focus on AI and Deep Learning. By sincerely addressing the diverse issues faced by our customers, we will push society as a whole toward a more prosperous era supported by big data."
         }
     },
     "value": {
@@ -101,13 +93,17 @@
     },
     "service": {
         "description": {
-            "title": {
-                "ja": "AI ソリューション事業",
+            "title1": {
+                "ja": "だれもが使いやすい",
                 "en": "AI Solution Business"
+            },
+            "title2": {
+                "ja": "AIソリューションの提供",
+                "en": "Providing AI Solutions"
             },
             "content": {
                 "former":{
-                    "ja": "StatHack では、データの有効活用によるお客様の成果の更なる向上をもたらす AI ソリューションを提供します。",
+                    "ja": "StatHack では、データの有効活用で課題を解決し、お客様の成果の更なる向上をもたらす AIソリューションを提供します。",
                     "en": "StatHack provides AI solutions that help you make better use of your data to improve your results."
 
                 },
@@ -117,112 +113,232 @@
                 }
             }
         },
+        "solution":{
+            "first": {
+                "content": {
+                    "ja": "StatHackの外観検査AIは、少量のデータで高速・高精度な製品外観検査が可能です。これまで属人化していた検査をAIが代行し、業務の効率化やコスト削減を実現します。",
+                    "en": "StatHack provides visual inspection AI which is capable of high-speed, high-precision visual inspection of products with a small amount of data. AI takes over inspections that used to be performed by human inspectors, thereby improving operational efficiency and reducing costs."
+                }
+            },
+            "second": {
+                "content": {
+                    "ja": "製造業の納品書・請求書処理業務を省力化。紙の情報を自動で読み取り、経理業務の省力化・データのクラウド化を実現します。",
+                    "en": "Labor-saving delivery note and invoice processing for the manufacturing industry. Automatically reads paper information, saves labor in accounting work, and moves data to the cloud."
+                }
+            },
+            "third":{
+                "content":{
+                    "ja": "数値で表すことのできるデータであればAIソリューションの対象です。お客様のお持ちのデータをもとに、課題の解決や活用できる方法を提案いたしますので、お気軽にご相談ください。",
+                    "en": "Any data that can be expressed numerically is eligible for an AI solution. Please feel free to contact us to discuss how we can help you solve your problems and make the most of the data you have."
+                }
+            }
+        },
         "example": {
+            "header": {
+                "title": {
+                    "ja": "活用事例",
+                    "en": "Case"
+                },
+                "content": {
+                    "ja": "AI技術がどのようにクライアント企業さまの業務で活用されているかを紹介します。",
+                    "en": "We will show you how AI technology is being used by our clients in their business operations."
+                }
+            },
             "first": {
                 "title": {
-                    "ja": "コンピュータビジョン",
-                    "en": "Computer Vision"
+                    "ja": "金属パイプ製品の外観検査",
+                    "en": "Appearance inspection of metal pipe products"
                 },
                 "subtitle": {
-                    "ja": "CV、画像分析",
-                    "en": "CV, Image Analysis"
+                    "ja": "武州工業株式会社さま",
+                    "en": "Bushu Kogyo Co."
                 },
                 "description": {
-                    "ja": "コンピュータビジョンは、コンピュータにより人間に近い認知方法で画像や動画を処理することを目指す分野です。深層学習の技術の発展と共に最も大きく成長してきた分野であり、現在では様々なタスクにおいて人間を超える精度を記録するほどに成熟しています。",
-                    "en": "Computer vision is a field that aims to allow computers to process images and videos in a cognitive manner similar to humans. It is a field that has grown most significantly with the development of deep learning technology, and has now matured to the point where it records accuracy that exceeds that of humans in various tasks."
+                    "ja": "金属パイプ製品の良品・不良品の分類を行う AI を導入いたしました。大手ベンダーの検査 AI を置き換えることにより、高精度かつ低コストの AI 検査を実現いたしました。",
+                    "en": "We have introduced AI to classify good and defective metal pipe products. By replacing a major vendor's inspection AI, we have achieved highly accurate and low-cost AI inspection."
                 },
                 "content": {
                     "first" : {
                         "title": {
-                            "ja": "画像分類",
-                            "en": "Image Classification"
+                            "ja": "成果物1. 外観検査AI",
+                            "en": "Deliverable 1: Appearance Inspection AI"
                         },
                         "description": {
-                            "ja": "カメラによる撮影画像を元に分類を行います。製造ラインでの不良品の自動検出などに応用されます。",
-                            "en": "Classification is performed based on images taken by a camera. It is applied to the automatic detection of defective products in manufacturing lines."
+                            "ja": "99.8 % の高精度の検品に加え、傷のある箇所を赤く可視化することで検査担当者が AI の判断根拠を確認できるようにしています。",
+                            "en": "In addition to the high accuracy of 99.8% inspection, damaged areas are visualized in red so that inspectors can confirm the basis of the AI's judgment."
                         }
                     },
                     "second" : {
                         "title": {
-                            "ja": "文字認識",
-                            "en": "Optical Character Recognition"
+                            "ja": "成果物2. 学習アプリケーション",
+                            "en": "Deliverable 2. Learning Application"
                         },
                         "description": {
-                            "ja": "画像に含まれる文字情報を認識・抽出します。膨大な量の書類から必要な情報だけを抽出するなどの応用があります。",
-                            "en": "Recognizes and extracts text information contained in images. It has applications such as extracting only the necessary information from a huge amount of documents."
+                            "ja": "お客様自身で AI の学習ができるアプリケーションをご提供いたしました。これにより追加費用無しで新規製品の検査に対応可能です。",
+                            "en": "We have provided an application that allows customers to learn AI on their own. This enables customers to inspect new products at no additional cost."
                         }
                     }
                 }
             },
             "second": {
                 "title": {
-                    "ja": "自然言語処理",
-                    "en": "Natural Language Processing"
+                    "ja": "建築足場のネジ留め検査",
+                    "en": "Inspection of screw fastening of building scaffolds"
                 },
                 "subtitle": {
-                    "ja": "NLP、テキスト分析",
-                    "en": "NLP, Text Analysis"
+                    "ja": "株式会社タカミヤさま",
+                    "en": "Takamiya Co."
                 },
                 "description": {
-                    "ja": "自然言語処理は、コンピュータにより人間が日常使う言語（自然言語）から情報を抽出し処理することを目指す分野です。人間の高度な情報処理に密接にかかわるため難しい分野であるとされてきましたが、近年では新たなモデルの登場などにより目覚ましい発展を遂げています。",
-                    "en": "Natural language processing is a field that aims to extract and process information from the language (natural language) that people use in their daily lives by using computers. It has been considered to be a difficult field because it is closely related to advanced human information processing, but in recent years, remarkable progress has been made with the emergence of new models."
+                    "ja": "建築現場のスパイダー（足場）にリベット（ネジの一種）が留まっているか否かを検査する AI を導入いたしました。",
+                    "en": "We have introduced an AI that inspects whether rivets (a type of screw) are fastened to spiders (scaffolds) at construction sites."
                 },
                 "content": {
                     "first" : {
                         "title": {
-                            "ja": "文書検索システム",
-                            "en": "Document Retrieval Systems"
+                            "ja": "成果物1. 外観検査 AI",
+                            "en": "Deliverable 1: Appearance Inspection AI"
                         },
                         "description": {
-                            "ja": "文書情報を的確に定量化し、検索システムを構築します。これにより、必要な文書情報を検索者の経験によらず取得できます。",
-                            "en": "We build a search system by accurately quantifying document information. This makes it possible to retrieve the necessary document information without depending on the experience of the searcher."
+                            "ja": "およそ 4 m のスパイダーから 3 mm 程度の非常に小さなリベットを検出するAI を作成いたしました。通常、検出対象に対して全体像が大きい場合は検出が難しくなりますが、弊社アルゴリズムでは細部の情報を失わず、高い精度を実現しています。",
+                            "en": "We have created an AI that can detect rivets as small as 3 mm from a spider approximately 4 meters long. Normally, detection is difficult when the overall image is large compared to the target, but our algorithm achieves high accuracy without losing detail information."
                         }
                     },
                     "second" : {
                         "title": {
-                            "ja": "対話システム",
-                            "en": "Interactive System"
+                            "ja": "成果物2. 外観検査アプリケーション",
+                            "en": "Deliverable 2. Appearance Inspection Application"
                         },
                         "description": {
-                            "ja": "自動でテキストメッセージに応答するシステムを構築します。カスタマーサポートにおける応答の自動化やオペレーターの支援に応用されます。",
-                            "en": "Build a system that automatically responds to text messages. It is applied to automate responses and assist operators in customer support."
+                            "ja": "外観検査 AI をパソコンから操作するためのアプリケーションを提供いたしました。現場の環境に合わせて検査担当者がタッチパネルで操作しやすいUIを意識して作成しました。",
+                            "en": "We provided an application for operating the appearance inspection AI from a PC. The application was created with a UI that is easy for inspectors to operate on a touch panel in accordance with the on-site environment."
+                        }
+                    },
+                    "third" :{
+                        "title":{
+                            "ja": "検査結果検索アプリケーション",
+                            "en": "Test Result Search Application"
+                        },
+                        "description":{
+                            "ja": "検査した結果をエビデンスとして残し、検査時の画像や情報を検索できるシステムを構築しました。",
+                            "en": "We have built a system that allows the results of an examination to be kept as evidence and allows the retrieval of images and information at the time of the examination."
                         }
                     }
                 }
+            }
+        },
+        "contact": {
+            "document":{
+                "button":{
+                    "ja": "資料で詳しく見る",
+                    "en": "Read more in the document"
+                },
+                "description":{
+                    "ja": "導入事例や導入イメージをご紹介",
+                    "en": "Introducing case studies and images of introduction"
+                }
             },
-            "third": {
-                "title": {
-                    "ja": "その他データ分析",
-                    "en": "Other Data Analysis"
+            "ai":{
+                "button":{
+                    "ja": "無料でAI外観検査",
+                    "en": "Free AI Visual inspection"
                 },
-                "subtitle": {
-                    "ja": "数値で表されるデータ全般の分析",
-                    "en": "Analysis of all data expressed in numerical form"
+                "description":{
+                    "ja": "少ない画像でもAIが無料で外観検査",
+                    "en": "Free Visual inspection by AI even with few images"
+                }
+            }
+        },
+        "flow":{
+            "title":{
+                "ja": "AI ソリューションの開発開始までのプロセス",
+                "en": "Process to start developing AI solutions"
+            },
+            "description": {
+                "ja": "丁寧なヒアリングとAI検証、現場の確認によって、貴社が抱える課題の本質に最適なAIソリューションを開発します。",
+                "en": "Through careful interviews, AI verification, and on-site confirmation, we will develop an AI solution best suited to the nature of the issues your company faces."
+            },
+            "steps":{
+                "first": {
+                    "ja": "お問い合わせ",
+                    "en": "Contact Us"
                 },
-                "description": {
-                    "ja": "上記の画像・テキストデータに限らず、数値で表すことのできるデータであれば機械学習の対象となります。弊社ではお客様の持っていらっしゃるデータを有効に活用できる方法を提案いたしますので、お気軽にご相談ください。",
-                    "en": "Not only the above image and text data, but any data that can be expressed in numerical values can be subject to machine learning. We will propose a way to effectively utilize your data, so please feel free to contact us."
+                "second": {
+                    "ja": "ヒアリング",
+                    "en": "Interview"
                 },
-                "content": {
-                    "first" : {
-                        "title": {
-                            "ja": "購買データ分析による売上最適化",
-                            "en": "Sales optimization through purchasing data analysis"
-                        },
-                        "description": {
-                            "ja": "これまでの商品の売上数のデータをもとに需要を予測し、最適な仕入れや在庫をAIによって提案します。",
-                            "en": "It predicts demand based on data on the number of products sold to date, and uses AI to propose optimal purchasing and inventory."
-                        }
+                "third": {
+                    "ja": "簡易AI検証",
+                    "en": "Simple AI Verification"
+                },
+                "fourth": {
+                    "ja": "現場確認",
+                    "en": "On-site Inspection"
+                },
+                "fifth": {
+                    "ja": "ご提案",
+                    "en": "Proposal"
+                },
+                "sixth": {
+                    "ja": "開発開始へ",
+                    "en": "Beginning Development"
+                }
+            }
+        },
+        "technology":{
+            "title": {
+                "ja": "AI ソリューションを実現する主な技術",
+                "en": "Key Technologies Enabling AI Solutions"
+            },
+            "description": {
+                "first": {
+                    "ja": "課題に対して最適なAI技術を、StatHackの抱えるAIモジュール群から適切に選択します。",
+                    "en": "The best AI technology for the task is appropriately selected from StatHack's suite of AI modules."
+                },
+                "second": {
+                    "ja": "※一例であり、他にもさまざまなAI技術がございます。",
+                    "en": "*This is just one example, there are many other AI technologies available."
+                }
+            },
+            "kinds": {
+                "first": {
+                    "title": {
+                        "ja": "物体検出",
+                        "en": "Object Detection"
                     },
-                    "second" : {
-                        "title": {
-                            "ja": "センサーを用いた予測",
-                            "en": "Prediction using sensors"
-                        },
-                        "description": {
-                            "ja": "工場の熱感知センサーなどのセンサーデータをもとに異常を検知したり、数分後に起こりうる異常を予測したりするシステムを構築します。",
-                            "en": "We build systems that detect abnormalities and predict possible abnormalities that may occur in the next few minutes based on sensor data such as heat sensors in factories."
-                        }
+                    "description": {
+                        "ja": "画像の中から特定の物体の種類と位置を特定します。生産ラインにカメラを設置し、製品を数え上げるなどの用途がございます。",
+                        "en": "Identify the type and location of specific objects in the image. Applications include installing cameras on production lines to count products."
+                    }
+                },
+                "second": {
+                    "title": {
+                        "ja": "画像分類",
+                        "en": "Image Classification"
+                    },
+                    "description": {
+                        "ja": "画像の特徴に基づいて、被写体を分類します。カメラを用いた良品・不良品の分別などに用いられます。",
+                        "en": "Classifies objects based on image features. It is used for sorting good and bad products using cameras."
+                    }
+                },
+                "third": {
+                    "title": {
+                        "ja": "文字認識",
+                        "en": "OCR"
+                    },
+                    "description": {
+                        "ja": "画像中の文字の種類と位置を特定します。紙媒体の資料を電子化・特定の情報を抽出するなどの用途がございます。",
+                        "en": "Identifies the type and position of text in an image. It can be used to digitize paper documents and extract specific information."
+                    }
+                },
+                "fourth": {
+                    "title": {
+                        "ja": "異常検知",
+                        "en": "Anomaly Detection"
+                    },
+                    "description": {
+                        "ja": "正常な音と異常な音を識別します。工場にマイクを設置し、製造機器が正常に動作しているか確認する用途などがございます。",
+                        "en": "It identifies normal and abnormal sounds. Microphones are installed in factories to check whether manufacturing equipment is working properly."
                     }
                 }
             }
