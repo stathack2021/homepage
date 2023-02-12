@@ -11,7 +11,7 @@ export const Service: React.FC<Props> = (props) => {
     return (
         
       <div className="text-white body-font" id="service">
-      <div className="py-16 lg:py-28 bg-sh-gray shadow-lg">
+      <div className="py-16 lg:py-28 px-5 md:px-24 bg-sh-gray shadow-lg">
         <div className="text-center mb-20">
           {
             locale == "ja" &&
@@ -22,7 +22,7 @@ export const Service: React.FC<Props> = (props) => {
           </h1>
         </div>
 
-        <div className="font-jp font-medium text-sh-black lg:w-3/4 mx-auto">
+        <div className="font-jp font-medium text-sh-black md:px-20 md:mb-10 lg:w-3/4 mx-auto">
           <h2 className="text-2xl md:text-3xl lg:text-4xl pt-5 font-light text-center">{ t.service.description.title1 }</h2>
           <h2 className="text-2xl md:text-3xl lg:text-4xl pb-5 font-light text-center">{ t.service.description.title2 }</h2>
           <p className="leading-relaxed text-xl mt-5 text-left lg:text-center">
@@ -34,10 +34,10 @@ export const Service: React.FC<Props> = (props) => {
       
         <div className="container mx-auto text-sh-black lg:py-20 space-y-10 lg:space-y-32">
         
-        <div className="flex flex-wrap lg:w-3/4 mx-auto">
+        <div className="flex flex-wrap lg:w-4/5 mx-auto">
           <div className="p-4 md:px-20 lg:p-4 lg:w-1/3 flex flex-col text-center items-center">
-            <div className="w-80 h-80 text-white flex flex-col items-center justify-center rounded-xl shadow-lg">
-              <img className="mx-auto" src="images/solution1.svg" width={291} height={257}></img>
+            <div className="w-64 h-64 xl:w-80 xl:h-80 text-white flex flex-col items-center justify-center rounded-xl shadow-lg">
+              <img className="mx-auto" src="images/solution1.svg" width={200} height={200}></img>
             </div>
             <p className="p-4 leading-10 font-jp font-medium text-xl text-left">
               { t.service.solution.first.content }
@@ -45,8 +45,8 @@ export const Service: React.FC<Props> = (props) => {
           </div>
 
           <div className="p-4 md:px-20 lg:p-4 lg:w-1/3 flex flex-col text-center items-center">
-            <div className="w-80 h-80 text-white flex flex-col items-center justify-center rounded-xl shadow-lg">
-              <img className="mx-auto" src="images/solution2.svg" width={298} height={257}></img>
+            <div className="w-64 h-64 xl:w-80 xl:h-80 text-white flex flex-col items-center justify-center rounded-xl shadow-lg">
+              <img className="mx-auto" src="images/solution2.svg" width={200} height={200}></img>
             </div>
             <p className="p-4 leading-10 font-jp font-medium text-xl text-left">
               { t.service.solution.second.content }
@@ -54,8 +54,8 @@ export const Service: React.FC<Props> = (props) => {
           </div>
 
           <div className="p-4 md:px-20 lg:p-4 lg:w-1/3 flex flex-col text-center items-center">
-            <div className="w-80 h-80 text-white flex flex-col items-center justify-center rounded-xl shadow-lg">
-              <img className="mx-auto" src="images/solution3.svg" width={298} height={257}></img>
+            <div className="w-64 h-64 xl:w-80 xl:h-80 text-white flex flex-col items-center justify-center rounded-xl shadow-lg">
+              <img className="mx-auto" src="images/solution3.svg" width={200} height={200}></img>
             </div>
             <p className="p-4 leading-10 font-jp font-medium text-xl text-left">
               { t.service.solution.third.content }
@@ -72,7 +72,7 @@ export const Service: React.FC<Props> = (props) => {
         </div>
 
         <div className="container">
-          <div className="flex items-top lg:w-3/5 mx-auto border-b border-gray-200 flex-row">
+          <div className="flex flex-wrap items-top lg:px-10 xl:w-3/5 mx-auto border-b border-gray-200 flex-row">
             <div className="hidden lg:block">
               <img src="/images/ex1_1.jpg" alt="example_1" width={'360'} height={'180'} />
             </div>
@@ -90,8 +90,8 @@ export const Service: React.FC<Props> = (props) => {
                 <img className="w-full" src="/images/ex1_1.jpg" alt="example_1" width={'352'} height={'300'} />
               </div>
           </div>
-          <div className="flex items-top my-10 lg:w-3/5 mx-auto border-b border-gray-200 flex-row">
-            <div className="flex flex-col text-center items-center">
+          <div className="flex flex-wrap items-top my-10 lg:w-3/5 mx-auto border-b border-gray-200">
+            <div className="flex flex-col text-center items-center md:w-1/2">
               <div className="inline-flex items-center justify-center rounded-full bg-blue-100 text-sh-blue mb-4 flex-shrink-0">
                 <img src="/images/ex1_2.jpg" alt="example_1" width={'440'} height={'220'} />
               </div>
@@ -102,7 +102,7 @@ export const Service: React.FC<Props> = (props) => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col text-center items-center">
+            <div className="flex flex-col text-center items-center md:w-1/2">
               <div className="inline-flex items-center justify-center text-sh-blue mb-4 flex-shrink-0">
                 <img src="/images/ex1_3.png" alt="example_1" width={'440'} height={'220'} />
               </div>
@@ -118,23 +118,23 @@ export const Service: React.FC<Props> = (props) => {
 
         <div className="lg:w-3/4 mx-auto px-2 font-jp font-medium text-sh-black">
           <div className="h-full bg-sh-blue bg-opacity-20 p-4 rounded-xl">
-            <div className="flex flex-wrap divide-x divide-sh-gray3 py-10">
-              <div className="flex w-1/2 items-center justify-center">
-                <div className="mr-5">
+            <div className="flex flex-wrap xl:divide-x divide-sh-gray3 py-10 justify-center">
+              <div className="flex xl:w-1/2 items-center justify-center">
+                <div className="hidden lg:block lg:mr-5">
                   <img src="/images/document.svg" width={120} height={120} />
                 </div>
-                <div className="flex flex-col items-center ml-5">
-                    <button className="mx-auto w-80 md:w-80 h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
+                <div className="flex flex-col items-center lg:ml-5">
+                    <button className="mx-auto h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.document.description }</p>
                 </div>
               </div>
 
-              <div className="flex w-1/2 items-center justify-center">
-                <div className="mr-5">
+              <div className="flex xl:w-1/2 items-center justify-center">
+                <div className="hidden lg:block lg:mr-5">
                   <img src="/images/ai.svg" width={120} height={120} />
                 </div>
-                <div className="flex flex-col items-center ml-5">
-                    <button className="mx-auto w-80 md:w-80 h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
+                <div className="flex flex-col items-center lg:ml-5">
+                    <button className="mx-auto h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.ai.description }</p>
                 </div>
               </div>
@@ -143,9 +143,9 @@ export const Service: React.FC<Props> = (props) => {
         </div>
 
         <div className="container">
-          <div className="flex items-top lg:w-3/5 mx-auto border-b border-gray-200 flex-row">
-            <div className="flex-grow text-left">
-              <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 01</p>
+          <div className="flex flex-wrap items-top lg:w-3/5 mx-auto border-b border-gray-200 flex-row">
+            <div className="flex-grow text-left lg:w-1/2">
+              <p className="text-lg font-en font-bold text-transparent bg-clip-text bg-gradient-to-b from-sh-light-blue  via-sh-blue to-sh-dark-blue">example 02</p>
               <h2 className="text-3xl md:text-4xl py-2">{ t.service.example.second.title }</h2>
               <p className="leading-relaxed text-base font-jp font-medium mb-5">
                 {t.service.example.second.subtitle }
@@ -163,7 +163,7 @@ export const Service: React.FC<Props> = (props) => {
               </div>
           </div>
           <div className="flex flex-wrap items-top my-10 lg:w-3/5 mx-auto border-b border-gray-200 flex-row">
-            <div className="flex flex-col text-center items-center w-1/2">
+            <div className="flex flex-col text-center items-center md:w-1/2">
               <div className="inline-flex items-center justify-center mb-4 flex-shrink-0">
                 <img src="/images/ex2_2.png" alt="example_1" width={'440'} height={'220'} />
               </div>
@@ -174,7 +174,7 @@ export const Service: React.FC<Props> = (props) => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col text-center items-center w-1/2">
+            <div className="flex flex-col text-center items-center md:w-1/2">
               <div className="inline-flex items-center justify-center text-sh-blue mb-4 flex-shrink-0">
                 <img src="/images/ex2_3.png" alt="example_1" width={'440'} height={'220'} />
               </div>
@@ -185,39 +185,28 @@ export const Service: React.FC<Props> = (props) => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col text-center items-center w-1/2 mt-6">
-              <div className="inline-flex items-center justify-center text-sh-blue mb-4 flex-shrink-0">
-                <img src="/images/ex2_4.png" alt="example_1" width={'440'} height={'220'} />
-              </div>
-              <div className="flex-grow pl-6">
-                <h2 className="text-gray-900 font-jp text-lg title-font font-bold mb-2 text-left">{ t.service.example.third.content.second.title }</h2>
-                <p className="leading-relaxed text-base font-jp font-medium text-left">
-                { t.service.example.third.content.second.description }
-                </p>
-              </div>
-            </div>
           </div>
         </div>
 
         <div className="lg:w-3/4 mx-auto px-2 font-jp font-medium text-sh-black">
           <div className="h-full bg-sh-blue bg-opacity-20 p-4 rounded-xl">
-            <div className="flex flex-wrap divide-x divide-sh-gray3 py-10">
-              <div className="flex w-1/2 items-center justify-center">
-                <div className="mr-5">
+            <div className="flex flex-wrap xl:divide-x divide-sh-gray3 py-10 justify-center">
+              <div className="flex xl:w-1/2 items-center justify-center">
+                <div className="hidden lg:block lg:mr-5">
                   <img src="/images/document.svg" width={120} height={120} />
                 </div>
-                <div className="flex flex-col items-center ml-5">
-                    <button className="mx-auto w-80 md:w-80 h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
+                <div className="flex flex-col items-center lg:ml-5">
+                    <button className="mx-auto h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.document.description }</p>
                 </div>
               </div>
 
-              <div className="flex w-1/2 items-center justify-center">
-                <div className="mr-5">
+              <div className="flex xl:w-1/2 items-center justify-center">
+                <div className="hidden lg:block lg:mr-5">
                   <img src="/images/ai.svg" width={120} height={120} />
                 </div>
-                <div className="flex flex-col items-center ml-5">
-                    <button className="mx-auto w-80 md:w-80 h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
+                <div className="flex flex-col items-center lg:ml-5">
+                    <button className="mx-auto h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.ai.description }</p>
                 </div>
               </div>
@@ -225,45 +214,47 @@ export const Service: React.FC<Props> = (props) => {
           </div>
         </div>
 
-        <div className="font-jp font-medium text-sh-black">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-center">{ t.service.flow.title }</h2>
-          <p className="leading-relaxed text-xl mt-5 text-left lg:text-center">
-            { t.service.flow.description }
-          </p>
+        <div className="container">
+          <div className="font-jp font-medium text-sh-black">
+            <h2 className="text-3xl lg:text-4xl font-light text-center">{ t.service.flow.title }</h2>
+            <p className="leading-relaxed text-xl mt-5 text-left lg:text-center">
+              { t.service.flow.description }
+            </p>
+          </div>
         </div>
 
-        <div className="flex lg:w-3/4 mx-auto">
-          <div className="relative">
+        <div className="flex flex-wrap xl:flex-nowrap lg:w-3/4 mx-auto justify-center -my-2">
+          <div className="relative my-2">
             <svg className="text-sh-dark-blue text-opacity-30 fill-current" width="190" height="80" viewBox="0 0 190 81" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0.636475H174L190 39.3031L174 80.6365H0V39.3031V0.636475Z"/>
             </svg>
             <p className="absolute top-7 left-11 text-sh-dark-blue font-bold">{ t.service.flow.steps.first }</p>
           </div>
-          <div className="relative">
+          <div className="relative my-2">
             <svg className="text-sh-dark-blue text-opacity-30 fill-current" width="190" height="80" viewBox="0 0 190 81" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0.636475H174L190 39.3031L174 80.6365H0L16 40.6365L0 0.636475Z"/>
             </svg>
             <p className="absolute top-7 left-14 text-sh-dark-blue font-bold">{ t.service.flow.steps.second }</p>
           </div>
-          <div className="relative">
+          <div className="relative my-2">
             <svg className="text-sh-dark-blue text-opacity-30 fill-current" width="190" height="80" viewBox="0 0 190 81" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0.636475H174L190 39.3031L174 80.6365H0L16 40.6365L0 0.636475Z"/>
             </svg>
             <p className="absolute top-7 left-14 text-sh-dark-blue font-bold">{ t.service.flow.steps.third }</p>
           </div>
-          <div className="relative">
+          <div className="relative my-2">
             <svg className="text-sh-dark-blue text-opacity-30 fill-current" width="190" height="80" viewBox="0 0 190 81" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0.636475H174L190 39.3031L174 80.6365H0L16 40.6365L0 0.636475Z"/>
             </svg>
             <p className="absolute top-7 left-16 text-sh-dark-blue font-bold">{ t.service.flow.steps.fourth }</p>
           </div>
-          <div className="relative">
+          <div className="relative my-2">
             <svg className="text-sh-dark-blue text-opacity-30 fill-current" width="190" height="80" viewBox="0 0 190 81" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0.636475H174L190 39.3031L174 80.6365H0L16 40.6365L0 0.636475Z"/>
             </svg>
             <p className="absolute top-7 left-16 text-sh-dark-blue font-bold">{ t.service.flow.steps.fifth }</p>
           </div>
-          <div className="relative">
+          <div className="relative my-2">
             <svg className="text-sh-dark-blue text-opacity-30 fill-current" width="190" height="80" viewBox="0 0 190 81" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0.636475H190V39.3031V80.6365H0L16 40.6365L0 0.636475Z"/>
             </svg>
