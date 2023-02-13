@@ -124,7 +124,7 @@ export const Service: React.FC<Props> = (props) => {
                   <img src="/images/document.svg" width={120} height={120} />
                 </div>
                 <div className="flex flex-col items-center lg:ml-5">
-                    <button className="mx-auto h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
+                    <button onClick={() => {window.location.href="/#contact"}} className="mx-auto h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.document.description }</p>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export const Service: React.FC<Props> = (props) => {
                   <img src="/images/ai.svg" width={120} height={120} />
                 </div>
                 <div className="flex flex-col items-center lg:ml-5">
-                    <button className="mx-auto h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
+                    <button onClick={() => {window.location.href="https://ai-gaikan.stathack.jp/"}} className="mx-auto h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.ai.description }</p>
                 </div>
               </div>
@@ -196,7 +196,7 @@ export const Service: React.FC<Props> = (props) => {
                   <img src="/images/document.svg" width={120} height={120} />
                 </div>
                 <div className="flex flex-col items-center lg:ml-5">
-                    <button className="mx-auto h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
+                    <button onClick={() => {window.location.href="/#contact"}} className="mx-auto h-12 md:h-16 font-bold text-white bg-sh-blue hover:bg-sh-blue-hover  border-0 py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.document.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.document.description }</p>
                 </div>
               </div>
@@ -206,7 +206,7 @@ export const Service: React.FC<Props> = (props) => {
                   <img src="/images/ai.svg" width={120} height={120} />
                 </div>
                 <div className="flex flex-col items-center lg:ml-5">
-                    <button className="mx-auto h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
+                    <button onClick={() => {window.location.href="https://ai-gaikan.stathack.jp/"}} className="mx-auto h-12 md:h-16 font-bold text-sh-blue bg-sh-white hover:bg-sh-blue-hover border-2 border-sh-blue py-2 px-8 focus:outline-none rounded-full text-lg">{ t.service.contact.ai.button}</button>
                     <p className="text-base font-jp font-medium mt-4">{ t.service.contact.ai.description }</p>
                 </div>
               </div>
