@@ -352,6 +352,28 @@
                     "en": "Information"
                 },
                 "date": {
+                    "ja": "2023.02.20",
+                    "en": "20 Feb 2023"
+                },
+                "title": {
+                    "ja": "請求書自動処理サービス「AI経理」の利用登録を開始しました",
+                    "en": "We have released an automated invoice processing service \"AI Accounting\"."
+                },
+                "description": {
+                    "ja": "製造業界の方向けに経理業務の自動化から電子取引・電子帳簿保存法への対応をAIがサポートするサービスを開始いたします。",
+                    "en": "We will launch a service for those in the manufacturing industry, where AI will support from automation of accounting operations to electronic transactions and compliance with the Electronic Bookkeeping Act."
+                },
+                "url": {
+                    "ja": "https://ai-keiri.stathack.jp/",
+                    "en": "https://ai-keiri.stathack.jp/"
+                }
+            },
+            {
+                "category": {
+                    "ja": "お知らせ",
+                    "en": "Information"
+                },
+                "date": {
                     "ja": "2022.10.08",
                     "en": "8 Oct 2022"
                 },
