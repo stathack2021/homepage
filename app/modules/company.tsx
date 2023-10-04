@@ -11,9 +11,9 @@ export const Company: React.FC<Props> = (props) => {
     return (
         
       <div className="text-gray-600 body-font bg-sh-white" id="company">
-      <div className="container lg:px-5 py-16 lg:py-24 mx-auto">
-        <div className="text-center mb-20">
-          <h1 className="text-5xl lg:text-6xl font-semibold font-en title-font text-sh-black mb-4">
+      <div className="container py-16 mx-auto lg:px-5 lg:py-24">
+        <div className="mb-20 text-center">
+          <h1 className="mb-4 text-5xl font-semibold lg:text-6xl font-en title-font text-sh-black">
             {
               locale == "ja" &&
               <>
@@ -22,14 +22,14 @@ export const Company: React.FC<Props> = (props) => {
             }
             COMPANY
           </h1>
-          <div className="flex mt-6 justify-center">
-            <div className="w-16 h-1 rounded-full bg-sh-blue inline-flex"></div>
+          <div className="flex justify-center mt-6">
+            <div className="inline-flex w-16 h-1 rounded-full bg-sh-blue"></div>
           </div>
         </div>
-        <div className="mx-auto p-4 font-jp font-medium text-sh-black">
-          <div className="h-full bg-sh-gray2 p-8 rounded">
+        <div className="p-4 mx-auto font-medium font-jp text-sh-black">
+          <div className="h-full p-8 rounded bg-sh-gray2">
             <div className="flex flex-wrap divide-x divide-sh-gray3">
-              <div className="md:w-1/2 lg:px-8 xl:px-20 py-6">
+              <div className="py-6 md:w-1/2 lg:px-8 xl:px-20">
                 <table className="w-full h-1/2 md:h-full">
                   <tbody>
                     <tr>
@@ -44,9 +44,13 @@ export const Company: React.FC<Props> = (props) => {
                       <td>{ t.company.establishment.label}</td>
                       <td>{ t.company.establishment.item}</td>
                     </tr>
+                    <tr>
+                      <td>{ t.company.parent.label}</td>
+                      <td><a className="text-sh-dark-blue" href={t.company.parent.url}>{ t.company.parent.item }</a></td>
+                    </tr>
                   </tbody>
                 </table>
-                <table className="w-full h-1/2 my-10 md:hidden">
+                <table className="w-full my-10 h-1/2 md:hidden">
                   <tbody>
                     <tr>
                       <td>{ t.company.member.title }</td>
@@ -67,7 +71,7 @@ export const Company: React.FC<Props> = (props) => {
                 </table>
               </div>
 
-              <div className="w-1/2 px-16 xl:px-20 py-6 hidden md:block">
+              <div className="hidden w-1/2 px-16 py-6 xl:px-20 md:block">
                 <table className="w-full h-full">
                   <tbody>
                     <tr>
