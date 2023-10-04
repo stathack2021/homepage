@@ -352,6 +352,50 @@
                     "en": "Information"
                 },
                 "date": {
+                    "ja": "2023.10.04",
+                    "en": "04 Oct 2023"
+                },
+                "title": {
+                    "ja": "株式会社カミナシによるStatHack全株式取得に関するお知らせ",
+                    "en": "Notice of StatHack's acquisition of all shares by Kaminashi Inc."
+                },
+                "description": {
+                    "ja": "株式会社StatHackは、現場DXプラットフォーム『カミナシ』を提供する株式会社カミナシが発行済全株式を取得したことにより、カミナシの完全子会社となりましたことをお知らせします。",
+                    "en": "StatHack Inc. is pleased to announce that it has become a wholly owned subsidiary of Kaminashi Inc., which provides the on-site DX platform \"Kaminashi\", by acquiring all of its issued shares."
+                },
+                "url": {
+                    "ja": "https://prtimes.jp/main/html/rd/p/000000005.000092816.html",
+                    "en": "https://prtimes.jp/main/html/rd/p/000000005.000092816.html"
+                }
+            },
+            {
+                "category": {
+                    "ja": "お知らせ",
+                    "en": "Information"
+                },
+                "date": {
+                    "ja": "2023.10.04",
+                    "en": "04 Oct 2023"
+                },
+                "title": {
+                    "ja": "出荷前の製品個数カウントと記録を効率化するAIツール「Count AI」、正式提供開始",
+                    "en": "We have officially launched \"Count AI\", an AI tool that streamlines the counting and recording of products before shipment."
+                },
+                "description": {
+                    "ja": "「Count AI」は、スマートフォンやタブレットで個数を数えたい製品の写真を撮るだけでAIが自動でその数をカウントし、結果をクラウド上に記録するツールです。従来は人が毎回目視により数分掛けて行っており非効率なことが課題だった「員数検査」を数秒で完了させられるので、およそ半数の作業者で現場を回せるようになります。また、顧客の発注情報と員数検査の結果が紐づいてクラウド上に記録されるので、出荷した製品個数のエビデンスが残り、顧客からの納品数不足などの問い合わせ対応や原因調査も早急に行えます。",
+                    "en": "\"Count AI\" is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet. It is a tool that allows you to count the number of products you want to count with your smartphone or tablet."
+                },
+                "url": {
+                    "ja": "https://prtimes.jp/main/html/rd/p/000000006.000092816.html",
+                    "en": "https://prtimes.jp/main/html/rd/p/000000006.000092816.html"
+                }
+            },
+            {
+                "category": {
+                    "ja": "お知らせ",
+                    "en": "Information"
+                },
+                "date": {
                     "ja": "2023.02.20",
                     "en": "20 Feb 2023"
                 },
@@ -550,6 +594,20 @@
             "item": {
                 "ja": "2021年8月25日",
                 "en": "August 25, 2021"
+            }
+        },
+        "parent": {
+            "label": {
+                "ja": "親会社",
+                "en": "Parent company"
+            },
+            "item": {
+                "ja": "株式会社カミナシ",
+                "en": "Kaminashi Inc."
+            },
+            "url": {
+                "ja": "https://corp.kaminashi.jp/",
+                "en": "https://corp.kaminashi.jp/"
             }
         },
         "member": {
